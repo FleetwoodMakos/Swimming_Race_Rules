@@ -1,0 +1,2723 @@
+{
+  "questions": [
+    {
+      "id": "fly-hands",
+      "level": "basics",
+      "stroke": "fly",
+      "type": "picture",
+      "title": "Which touch works for a butterfly turn?",
+      "lesson": "Touch with both hands at the same time, separated rather than stacked. The hands may be at different heights.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Two separate hands touching together"
+        },
+        {
+          "id": "1",
+          "text": "Only one hand touching"
+        },
+        {
+          "id": "2",
+          "text": "One hand stacked on the other"
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "codes": [
+        "8.5"
+      ],
+      "ruleIds": [
+        "fly-touch"
+      ],
+      "hint": "Touch with both hands at the same time, separated rather than stacked. The hands may be at different heights.",
+      "prompts": []
+    },
+    {
+      "id": "back-place",
+      "level": "basics",
+      "stroke": "back",
+      "type": "single",
+      "title": "Where does a backstroke race start?",
+      "lesson": "Backstroke starts in the water, facing the starting end.",
+      "options": [
+        {
+          "id": "0",
+          "text": "On the starting block"
+        },
+        {
+          "id": "1",
+          "text": "In the water"
+        },
+        {
+          "id": "2",
+          "text": "From the pool steps"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "4.2",
+        "6.1"
+      ],
+      "ruleIds": [
+        "back-start"
+      ],
+      "hint": "Backstroke starts in the water, facing the starting end.",
+      "prompts": []
+    },
+    {
+      "id": "start-order",
+      "level": "basics",
+      "stroke": "general",
+      "type": "order",
+      "title": "Put the dive-start signals in order.",
+      "lesson": "Short whistles: get ready. Long whistle: get onto the block. “Take your marks”: take the starting position. Starting signal: start your race.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Short whistles"
+        },
+        {
+          "id": "1",
+          "text": "Long whistle"
+        },
+        {
+          "id": "2",
+          "text": "Take your marks"
+        },
+        {
+          "id": "3",
+          "text": "Starting signal"
+        }
+      ],
+      "correct": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "codes": [
+        "4.1.1",
+        "4.1.3",
+        "4.1.4"
+      ],
+      "ruleIds": [
+        "dive-start",
+        "start-signal"
+      ],
+      "hint": "Short whistles: get ready. Long whistle: get onto the block. “Take your marks”: take the starting position. Starting signal: start your race.",
+      "prompts": []
+    },
+    {
+      "id": "signal-match",
+      "level": "basics",
+      "stroke": "general",
+      "type": "match",
+      "title": "Match each dive-start signal to your action.",
+      "lesson": "For a dive start: short whistles mean get ready at the starting end; the long whistle means get onto the block; “take your marks” means take your starting position; the starting signal means begin the race.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Get ready at the starting end"
+        },
+        {
+          "id": "1",
+          "text": "Get onto the starting block"
+        },
+        {
+          "id": "2",
+          "text": "Take your starting position"
+        },
+        {
+          "id": "3",
+          "text": "Start your race"
+        }
+      ],
+      "correct": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "codes": [
+        "4.1.1",
+        "4.1.3",
+        "4.1.4"
+      ],
+      "ruleIds": [
+        "dive-start"
+      ],
+      "hint": "For a dive start: short whistles mean get ready at the starting end; the long whistle means get onto the block; “take your marks” means take your starting position; the starting signal means begin the race.",
+      "prompts": [
+        "Short whistles",
+        "Long whistle",
+        "Take your marks",
+        "Starting signal"
+      ]
+    },
+    {
+      "id": "head15",
+      "level": "basics",
+      "stroke": "free",
+      "type": "single",
+      "title": "What must break the surface by 15 metres after a freestyle start or turn?",
+      "lesson": "Your head must have broken the surface at or before 15 metres. A first head breakout at 15.01 metres is too late.",
+      "options": [
+        {
+          "id": "0",
+          "text": "A hand"
+        },
+        {
+          "id": "1",
+          "text": "Your head"
+        },
+        {
+          "id": "2",
+          "text": "Any part of your body"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "5.3"
+      ],
+      "ruleIds": [
+        "free-underwater"
+      ],
+      "hint": "Your head must have broken the surface at or before 15 metres. A first head breakout at 15.01 metres is too late.",
+      "prompts": []
+    },
+    {
+      "id": "im-sequence",
+      "level": "basics",
+      "stroke": "im",
+      "type": "order",
+      "title": "Put the individual medley strokes in order.",
+      "lesson": "Individual medley means one swimmer races butterfly, backstroke, breaststroke and freestyle, in that order.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Butterfly"
+        },
+        {
+          "id": "1",
+          "text": "Backstroke"
+        },
+        {
+          "id": "2",
+          "text": "Breaststroke"
+        },
+        {
+          "id": "3",
+          "text": "Freestyle"
+        }
+      ],
+      "correct": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "codes": [
+        "9.1"
+      ],
+      "ruleIds": [
+        "im-order"
+      ],
+      "hint": "Individual medley means one swimmer races butterfly, backstroke, breaststroke and freestyle, in that order.",
+      "prompts": []
+    },
+    {
+      "id": "two-touch",
+      "level": "basics",
+      "stroke": "general",
+      "type": "multi",
+      "title": "Which strokes need two hands together at a turn?",
+      "lesson": "Breaststroke and butterfly require a simultaneous two-hand touch, with the hands separated rather than stacked.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Breaststroke"
+        },
+        {
+          "id": "1",
+          "text": "Butterfly"
+        },
+        {
+          "id": "2",
+          "text": "Freestyle"
+        },
+        {
+          "id": "3",
+          "text": "Backstroke"
+        }
+      ],
+      "correct": [
+        "0",
+        "1"
+      ],
+      "codes": [
+        "7.7",
+        "8.5"
+      ],
+      "ruleIds": [
+        "breast-touch",
+        "fly-touch"
+      ],
+      "hint": "Breaststroke and butterfly require a simultaneous two-hand touch, with the hands separated rather than stacked.",
+      "prompts": []
+    },
+    {
+      "id": "back-second",
+      "level": "basics",
+      "stroke": "back",
+      "type": "single",
+      "title": "What does the second long whistle mean before a backstroke start?",
+      "lesson": "Enter the water on the first long whistle. On the second long whistle, return promptly to your starting position.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Start racing"
+        },
+        {
+          "id": "1",
+          "text": "Return to your starting position"
+        },
+        {
+          "id": "2",
+          "text": "Climb onto the block"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "4.2.1",
+        "4.2.2"
+      ],
+      "ruleIds": [
+        "back-start"
+      ],
+      "hint": "Enter the water on the first long whistle. On the second long whistle, return promptly to your starting position.",
+      "prompts": []
+    },
+    {
+      "id": "back-finish-basic",
+      "level": "basics",
+      "stroke": "back",
+      "type": "single",
+      "title": "How must you be positioned when you touch at a backstroke finish?",
+      "lesson": "Finish backstroke by touching the wall while still on your back.",
+      "options": [
+        {
+          "id": "0",
+          "text": "On your front"
+        },
+        {
+          "id": "1",
+          "text": "On either side of vertical"
+        },
+        {
+          "id": "2",
+          "text": "On your back"
+        }
+      ],
+      "correct": [
+        "2"
+      ],
+      "codes": [
+        "6.5"
+      ],
+      "ruleIds": [
+        "back-finish"
+      ],
+      "hint": "Finish backstroke by touching the wall while still on your back.",
+      "prompts": []
+    },
+    {
+      "id": "free-touch-basic",
+      "level": "basics",
+      "stroke": "free",
+      "type": "single",
+      "title": "What must touch the wall at the end of every freestyle length?",
+      "lesson": "At least one part of your body must touch the wall at each turn and at the finish.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Both hands together"
+        },
+        {
+          "id": "1",
+          "text": "At least one part of your body"
+        },
+        {
+          "id": "2",
+          "text": "Nothing if you turn close enough"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "5.2"
+      ],
+      "ruleIds": [
+        "free-wall"
+      ],
+      "hint": "At least one part of your body must touch the wall at each turn and at the finish.",
+      "prompts": []
+    },
+    {
+      "id": "breast-touch-basic",
+      "level": "basics",
+      "stroke": "breast",
+      "type": "picture",
+      "title": "Choose a legal breaststroke touch.",
+      "lesson": "Both hands touch together, separated rather than stacked. They do not need to touch at the same height.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Two separate hands touching together"
+        },
+        {
+          "id": "1",
+          "text": "Only one hand touching"
+        },
+        {
+          "id": "2",
+          "text": "One hand stacked on the other"
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "codes": [
+        "7.7"
+      ],
+      "ruleIds": [
+        "breast-touch"
+      ],
+      "hint": "Both hands touch together, separated rather than stacked. They do not need to touch at the same height.",
+      "prompts": []
+    },
+    {
+      "id": "relay-sequence",
+      "level": "basics",
+      "stroke": "relay",
+      "type": "order",
+      "title": "Put the medley relay strokes in order.",
+      "lesson": "Four swimmers take the medley relay in this order: backstroke, breaststroke, butterfly, freestyle. This differs from individual medley.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Backstroke"
+        },
+        {
+          "id": "1",
+          "text": "Breaststroke"
+        },
+        {
+          "id": "2",
+          "text": "Butterfly"
+        },
+        {
+          "id": "3",
+          "text": "Freestyle"
+        }
+      ],
+      "correct": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "codes": [
+        "9.2"
+      ],
+      "ruleIds": [
+        "relay-order"
+      ],
+      "hint": "Four swimmers take the medley relay in this order: backstroke, breaststroke, butterfly, freestyle. This differs from individual medley.",
+      "prompts": []
+    },
+    {
+      "id": "start-foot",
+      "level": "confidence",
+      "stroke": "general",
+      "type": "single",
+      "title": "On “take your marks” for a dive start, where must at least one foot be?",
+      "lesson": "At least one foot must contact the front of the starting platform. The hands do not have a prescribed position.",
+      "options": [
+        {
+          "id": "0",
+          "text": "At the front of the platform"
+        },
+        {
+          "id": "1",
+          "text": "Only on the rear wedge"
+        },
+        {
+          "id": "2",
+          "text": "Anywhere behind the platform"
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "codes": [
+        "4.1.3"
+      ],
+      "ruleIds": [
+        "dive-start"
+      ],
+      "hint": "At least one foot must contact the front of the starting platform. The hands do not have a prescribed position.",
+      "prompts": []
+    },
+    {
+      "id": "breast-kick",
+      "level": "confidence",
+      "stroke": "breast",
+      "type": "single",
+      "title": "How many butterfly kicks are permitted in a breaststroke pullout?",
+      "lesson": "After the start and each turn, one butterfly kick is permitted before the first breaststroke kick.",
+      "options": [
+        {
+          "id": "0",
+          "text": "As many as you like before 15 metres"
+        },
+        {
+          "id": "1",
+          "text": "One, before the first breaststroke kick"
+        },
+        {
+          "id": "2",
+          "text": "One after every breaststroke kick"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "7.1"
+      ],
+      "ruleIds": [
+        "breast-pullout"
+      ],
+      "hint": "After the start and each turn, one butterfly kick is permitted before the first breaststroke kick.",
+      "prompts": []
+    },
+    {
+      "id": "back-grips",
+      "level": "confidence",
+      "stroke": "back",
+      "type": "multi",
+      "title": "Select the correct backstroke starting-position requirements.",
+      "lesson": "Face the starting end and hold the starting grips with both hands. Do not stand in the gutter or curl toes over its lip.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Face the starting end"
+        },
+        {
+          "id": "1",
+          "text": "Hold the grips with both hands"
+        },
+        {
+          "id": "2",
+          "text": "Stand in the gutter"
+        }
+      ],
+      "correct": [
+        "0",
+        "1"
+      ],
+      "codes": [
+        "6.1"
+      ],
+      "ruleIds": [
+        "back-start"
+      ],
+      "hint": "Face the starting end and hold the starting grips with both hands. Do not stand in the gutter or curl toes over its lip.",
+      "prompts": []
+    },
+    {
+      "id": "relay-wait",
+      "level": "confidence",
+      "stroke": "relay",
+      "type": "single",
+      "title": "When may the outgoing relay swimmer lose contact with the platform?",
+      "lesson": "The incoming swimmer must touch the wall before the outgoing swimmer loses foot contact with the starting platform.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Before the touch if they look close"
+        },
+        {
+          "id": "1",
+          "text": "Only once the incoming swimmer has touched"
+        },
+        {
+          "id": "2",
+          "text": "Whenever the coach gives a signal"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "10.4.5"
+      ],
+      "ruleIds": [
+        "relay-exchange"
+      ],
+      "hint": "The incoming swimmer must touch the wall before the outgoing swimmer loses foot contact with the starting platform.",
+      "prompts": []
+    },
+    {
+      "id": "im-change",
+      "level": "confidence",
+      "stroke": "im",
+      "type": "order",
+      "title": "Order the backstroke-to-breaststroke transition.",
+      "lesson": "Finish the backstroke length with a touch on your back, then turn and follow the breaststroke departure rules. The incoming touch is a backstroke finish.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Touch on your back"
+        },
+        {
+          "id": "1",
+          "text": "Turn after the legal touch"
+        },
+        {
+          "id": "2",
+          "text": "Begin breaststroke under its rules"
+        }
+      ],
+      "correct": [
+        "0",
+        "1",
+        "2"
+      ],
+      "codes": [
+        "6.5",
+        "9.4"
+      ],
+      "ruleIds": [
+        "im-transition"
+      ],
+      "hint": "Finish the backstroke length with a touch on your back, then turn and follow the breaststroke departure rules. The incoming touch is a backstroke finish.",
+      "prompts": []
+    },
+    {
+      "id": "fly-arms",
+      "level": "confidence",
+      "stroke": "fly",
+      "type": "single",
+      "title": "How do the arms move during normal butterfly swimming?",
+      "lesson": "Both arms come forward together over the water and move back together under the water.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Alternate, one at a time"
+        },
+        {
+          "id": "1",
+          "text": "Together over the water on recovery"
+        },
+        {
+          "id": "2",
+          "text": "Either above or below water on recovery"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "8.3"
+      ],
+      "ruleIds": [
+        "fly-action"
+      ],
+      "hint": "Both arms come forward together over the water and move back together under the water.",
+      "prompts": []
+    },
+    {
+      "id": "back-depart",
+      "level": "confidence",
+      "stroke": "back",
+      "type": "single",
+      "title": "After a backstroke turn, when must you be back on your back?",
+      "lesson": "A backstroke swimmer must be back on the back when leaving the wall.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Only before the first arm stroke"
+        },
+        {
+          "id": "1",
+          "text": "When leaving the wall"
+        },
+        {
+          "id": "2",
+          "text": "Only by 15 metres"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "6.4"
+      ],
+      "ruleIds": [
+        "back-turn"
+      ],
+      "hint": "A backstroke swimmer must be back on the back when leaving the wall.",
+      "prompts": []
+    },
+    {
+      "id": "free-finish-check",
+      "level": "confidence",
+      "stroke": "free",
+      "type": "multi",
+      "title": "Select both conditions for the freestyle finish submersion allowance.",
+      "lesson": "Complete submersion is allowed once some part of the head has passed the final 5-metre mark, immediately before reaching for the finish wall. This is a finish allowance.",
+      "options": [
+        {
+          "id": "0",
+          "text": "The head has passed the final 5-metre mark"
+        },
+        {
+          "id": "1",
+          "text": "You are reaching for the finish wall"
+        },
+        {
+          "id": "2",
+          "text": "You are approaching any turn"
+        }
+      ],
+      "correct": [
+        "0",
+        "1"
+      ],
+      "codes": [
+        "5.4"
+      ],
+      "ruleIds": [
+        "free-finish"
+      ],
+      "hint": "Complete submersion is allowed once some part of the head has passed the final 5-metre mark, immediately before reaching for the finish wall. This is a finish allowance.",
+      "prompts": []
+    },
+    {
+      "id": "breast-last",
+      "level": "confidence",
+      "stroke": "breast",
+      "type": "single",
+      "title": "Must the last breaststroke arm pull before a finish always be followed by a kick?",
+      "lesson": "The final arm stroke before a turn or finish may be taken without a following leg kick, subject to the other touch and head requirements.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes, always"
+        },
+        {
+          "id": "1",
+          "text": "No, the final arm stroke may omit the kick"
+        },
+        {
+          "id": "2",
+          "text": "Only in a 50-metre pool"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "7.7"
+      ],
+      "ruleIds": [
+        "breast-finish"
+      ],
+      "hint": "The final arm stroke before a turn or finish may be taken without a following leg kick, subject to the other touch and head requirements.",
+      "prompts": []
+    },
+    {
+      "id": "fly15",
+      "level": "confidence",
+      "stroke": "fly",
+      "type": "single",
+      "title": "Does butterfly have the same 15-metre head-breakout deadline after each start and turn?",
+      "lesson": "Yes. The head must break the surface by 15 metres; the rule is not a 15-metre allowance followed by extra time to surface.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes, at or before 15 metres"
+        },
+        {
+          "id": "1",
+          "text": "No, only freestyle does"
+        },
+        {
+          "id": "2",
+          "text": "No, it is any body part after 15 metres"
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "codes": [
+        "8.6"
+      ],
+      "ruleIds": [
+        "fly-underwater"
+      ],
+      "hint": "Yes. The head must break the surface by 15 metres; the rule is not a 15-metre allowance followed by extra time to surface.",
+      "prompts": []
+    },
+    {
+      "id": "stand-down",
+      "level": "confidence",
+      "stroke": "general",
+      "type": "single",
+      "title": "An early-start disqualification is declared before the signal. What do the remaining swimmers do?",
+      "lesson": "The swimmers are stood down. The referee repeats the procedure from the relevant long whistle. Listen to the officials rather than starting or resetting by yourself.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Start racing anyway"
+        },
+        {
+          "id": "1",
+          "text": "Follow the stand-down instruction and repeated procedure"
+        },
+        {
+          "id": "2",
+          "text": "Leave the meet"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "4.4.2"
+      ],
+      "ruleIds": [
+        "start-signal"
+      ],
+      "hint": "The swimmers are stood down. The referee repeats the procedure from the relevant long whistle. Listen to the officials rather than starting or resetting by yourself.",
+      "prompts": []
+    },
+    {
+      "id": "medley-free",
+      "level": "confidence",
+      "stroke": "im",
+      "type": "single",
+      "title": "In the freestyle leg of a medley, can you choose breaststroke?",
+      "lesson": "Medley freestyle must be a style other than backstroke, breaststroke or butterfly. It has extra requirements compared with an ordinary freestyle event.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes, any stroke counts"
+        },
+        {
+          "id": "1",
+          "text": "No"
+        },
+        {
+          "id": "2",
+          "text": "Only during the final length"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "5.1"
+      ],
+      "ruleIds": [
+        "im-free"
+      ],
+      "hint": "Medley freestyle must be a style other than backstroke, breaststroke or butterfly. It has extra requirements compared with an ordinary freestyle event.",
+      "prompts": []
+    },
+    {
+      "id": "free-style-basic",
+      "level": "basics",
+      "stroke": "free",
+      "type": "single",
+      "title": "Must you use front crawl in a freestyle-only race?",
+      "lesson": "A freestyle-only race allows any style. Front crawl is commonly used; medley freestyle has separate restrictions.",
+      "hint": "Think about the exact action and when it happens. A freestyle-only race allows any style. Front crawl is commonly used; medley freestyle has separate restrictions.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes, only front crawl"
+        },
+        {
+          "id": "1",
+          "text": "No, any swimming style"
+        },
+        {
+          "id": "2",
+          "text": "Only front crawl or backstroke"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "5.1"
+      ],
+      "ruleIds": [
+        "free-style"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "back-body-basic",
+      "level": "basics",
+      "stroke": "back",
+      "type": "single",
+      "title": "During ordinary backstroke swimming, which body position do you keep?",
+      "lesson": "Stay on your back. You can roll towards either side, but less than 90 degrees from horizontal. A turn has its own rules.",
+      "hint": "Think about the exact action and when it happens. Stay on your back. You can roll towards either side, but less than 90 degrees from horizontal. A turn has its own rules.",
+      "options": [
+        {
+          "id": "0",
+          "text": "On your back"
+        },
+        {
+          "id": "1",
+          "text": "On your front"
+        },
+        {
+          "id": "2",
+          "text": "Whichever way your face points"
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "codes": [
+        "6.2"
+      ],
+      "ruleIds": [
+        "back-body"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "breast-legs-basic",
+      "level": "basics",
+      "stroke": "breast",
+      "type": "single",
+      "title": "How do your legs move in breaststroke?",
+      "lesson": "Both legs move together, not alternately. Turn your feet outwards during the propulsive part of the kick.",
+      "hint": "Think about the exact action and when it happens. Both legs move together, not alternately. Turn your feet outwards during the propulsive part of the kick.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Alternately, like walking"
+        },
+        {
+          "id": "1",
+          "text": "Together, with feet turned out for the propulsive kick"
+        },
+        {
+          "id": "2",
+          "text": "Any kick is allowed"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "7.5",
+        "7.6"
+      ],
+      "ruleIds": [
+        "breast-action"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "fly-legs-basic",
+      "level": "basics",
+      "stroke": "fly",
+      "type": "single",
+      "title": "How do your legs move in butterfly?",
+      "lesson": "Move the legs up and down together. The feet can be at different heights, but must not alternate. A breaststroke kick is not allowed.",
+      "hint": "Think about the exact action and when it happens. Move the legs up and down together. The feet can be at different heights, but must not alternate. A breaststroke kick is not allowed.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Alternately, like front crawl"
+        },
+        {
+          "id": "1",
+          "text": "Together, up and down"
+        },
+        {
+          "id": "2",
+          "text": "With a breaststroke kick"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "8.4"
+      ],
+      "ruleIds": [
+        "fly-action"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "breast-surface",
+      "level": "confidence",
+      "stroke": "breast",
+      "type": "single",
+      "title": "Which surfacing test applies to the breaststroke pullout?",
+      "lesson": "The head must have broken the surface before the hands turn inward at the widest part of the second arm stroke. It may surface earlier; there is no breaststroke 15m allowance.",
+      "hint": "Check when the hands turn inward on the second arm stroke. The head must already have broken the surface by then.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Head up by 15m, regardless of the arms"
+        },
+        {
+          "id": "1",
+          "text": "Head up before the hands turn inward at the widest point of the second arm stroke"
+        },
+        {
+          "id": "2",
+          "text": "Head up at any time before the third arm stroke"
+        },
+        {
+          "id": "3",
+          "text": "A hand at the surface is enough"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "7.1"
+      ],
+      "ruleIds": [
+        "breast-pullout"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "back15-check",
+      "level": "confidence",
+      "stroke": "back",
+      "type": "single",
+      "title": "A backstroker’s hand surfaces at 14m; the head first surfaces at 15.01m. Which is correct?",
+      "lesson": "The head must have broken the surface at or before 15m after a start or turn. A hand surfacing earlier does not meet that requirement.",
+      "hint": "Think about the exact action and when it happens. The head must have broken the surface at or before 15m after a start or turn. A hand surfacing earlier does not meet that requirement.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Legal because a hand surfaced first"
+        },
+        {
+          "id": "1",
+          "text": "Legal if the feet were also visible"
+        },
+        {
+          "id": "2",
+          "text": "Late: the head had to surface by 15m"
+        },
+        {
+          "id": "3",
+          "text": "Legal if it happened after a turn rather than a start"
+        }
+      ],
+      "correct": [
+        "2"
+      ],
+      "codes": [
+        "6.3"
+      ],
+      "ruleIds": [
+        "back-underwater"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-touch",
+      "level": "challenge",
+      "stroke": "breast",
+      "type": "single",
+      "title": "Which breaststroke touch is legal?",
+      "lesson": "Both hands must touch simultaneously and must not be stacked. Different heights and incidental finger contact do not by themselves make the touch illegal.",
+      "hint": "Think about the exact action and when it happens. Both hands must touch simultaneously and must not be stacked. Different heights and incidental finger contact do not by themselves make the touch illegal.",
+      "options": [
+        {
+          "id": "0",
+          "text": "One hand touches, then the other a moment later"
+        },
+        {
+          "id": "1",
+          "text": "Both hands touch simultaneously at different heights, without stacking"
+        },
+        {
+          "id": "2",
+          "text": "One hand is stacked on the other at contact"
+        },
+        {
+          "id": "3",
+          "text": "One hand touches while the other stays short of the wall"
+        },
+        {
+          "id": "4",
+          "text": "Either hand is enough at a turn, but two are needed at a finish"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "7.7"
+      ],
+      "ruleIds": [
+        "breast-touch"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-free-finish",
+      "level": "challenge",
+      "stroke": "free",
+      "type": "single",
+      "title": "When can a freestyler use the finish submersion exception?",
+      "lesson": "The head must have passed the final 5m marker and the swimmer must be reaching for the finish wall. The allowance does not apply to an ordinary turn or permit an entire underwater final 5m.",
+      "hint": "Think about the exact action and when it happens. The head must have passed the final 5m marker and the swimmer must be reaching for the finish wall. The allowance does not apply to an ordinary turn or permit an entire underwater final 5m.",
+      "options": [
+        {
+          "id": "0",
+          "text": "On entering the last 5m of every length"
+        },
+        {
+          "id": "1",
+          "text": "When the fingertips pass the final 5m marker"
+        },
+        {
+          "id": "2",
+          "text": "After the head passes the final 5m marker, when reaching for the finish wall"
+        },
+        {
+          "id": "3",
+          "text": "At any point in the final 5m, even before reaching for the wall"
+        },
+        {
+          "id": "4",
+          "text": "Only after touching the finish wall"
+        }
+      ],
+      "correct": [
+        "2"
+      ],
+      "codes": [
+        "5.4"
+      ],
+      "ruleIds": [
+        "free-finish"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-back-turn",
+      "level": "challenge",
+      "stroke": "back",
+      "type": "single",
+      "title": "A swimmer has made a legal backstroke turn and wall contact. When must they be back on their back?",
+      "lesson": "After a backstroke turn, be on your back as you leave the wall. Waiting until a later pull, kick or breakout is too late.",
+      "hint": "Think about the exact action and when it happens. After a backstroke turn, be on your back as you leave the wall. Waiting until a later pull, kick or breakout is too late.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Before the first arm pull"
+        },
+        {
+          "id": "1",
+          "text": "Before the first kick"
+        },
+        {
+          "id": "2",
+          "text": "Before the head breaks the surface"
+        },
+        {
+          "id": "3",
+          "text": "As they leave the wall"
+        },
+        {
+          "id": "4",
+          "text": "Any time within the first 5m"
+        }
+      ],
+      "correct": [
+        "3"
+      ],
+      "codes": [
+        "6.4"
+      ],
+      "ruleIds": [
+        "back-turn"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-pullout",
+      "level": "challenge",
+      "stroke": "breast",
+      "type": "single",
+      "title": "Which description of the optional breaststroke dolphin kick is correct?",
+      "lesson": "One butterfly kick is allowed after the start and each turn, before the first breaststroke kick. It is optional. This question tests kick count and order, not the separately flagged turn-departure clarification.",
+      "hint": "Think about the exact action and when it happens. One butterfly kick is allowed after the start and each turn, before the first breaststroke kick. It is optional. This question tests kick count and order, not the separately flagged turn-departure clarification.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Exactly one is compulsory"
+        },
+        {
+          "id": "1",
+          "text": "One is allowed before the first breaststroke kick"
+        },
+        {
+          "id": "2",
+          "text": "One is allowed after the first breaststroke kick"
+        },
+        {
+          "id": "3",
+          "text": "Two are allowed if the swimmer stays within 15m"
+        },
+        {
+          "id": "4",
+          "text": "Any number is allowed before the first arm pull"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "7.1"
+      ],
+      "ruleIds": [
+        "breast-pullout"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-fly-touch",
+      "level": "challenge",
+      "stroke": "fly",
+      "type": "multi",
+      "title": "Choose every statement that is true about a butterfly touch.",
+      "lesson": "Both hands touch at the same time and are not stacked. They may be at different heights, and incidental finger contact is allowed. The requirement applies to turns and finishes.",
+      "hint": "Think about the exact action and when it happens. Both hands touch at the same time and are not stacked. They may be at different heights, and incidental finger contact is allowed. The requirement applies to turns and finishes.",
+      "options": [
+        {
+          "id": "0",
+          "text": "The hands must touch at the same time"
+        },
+        {
+          "id": "1",
+          "text": "The hands must touch at exactly the same height"
+        },
+        {
+          "id": "2",
+          "text": "One hand must not be stacked on the other"
+        },
+        {
+          "id": "3",
+          "text": "A visible gap between the hands is always required"
+        },
+        {
+          "id": "4",
+          "text": "Incidental finger contact is allowed"
+        }
+      ],
+      "correct": [
+        "0",
+        "2",
+        "4"
+      ],
+      "codes": [
+        "8.5"
+      ],
+      "ruleIds": [
+        "fly-touch"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-medley",
+      "level": "challenge",
+      "stroke": "im",
+      "type": "single",
+      "title": "In individual medley, what completes the backstroke leg?",
+      "lesson": "Finish the backstroke quarter with a wall touch while still on your back, before beginning the change to breaststroke. A backstroke-to-backstroke tumble turn has a different purpose.",
+      "hint": "Think about the exact action and when it happens. Finish the backstroke quarter with a wall touch while still on your back, before beginning the change to breaststroke. A backstroke-to-backstroke tumble turn has a different purpose.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Rolling onto the front before touching, as for a backstroke tumble turn"
+        },
+        {
+          "id": "1",
+          "text": "Touching while on the back, then changing stroke"
+        },
+        {
+          "id": "2",
+          "text": "A simultaneous two-hand touch while on the front"
+        },
+        {
+          "id": "3",
+          "text": "Passing under the flags on the back, then touching in any position"
+        },
+        {
+          "id": "4",
+          "text": "Starting a breaststroke pull before contact"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "6.5",
+        "9.4"
+      ],
+      "ruleIds": [
+        "im-transition"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-relay",
+      "level": "challenge",
+      "stroke": "relay",
+      "type": "single",
+      "title": "What determines a legal relay takeover under the feet-contact rule?",
+      "lesson": "The outgoing swimmer’s feet must remain in contact with the platform until the incoming swimmer touches. The rule is about loss of feet contact, not the start of preparatory body movement.",
+      "hint": "Think about the exact action and when it happens. The outgoing swimmer’s feet must remain in contact with the platform until the incoming swimmer touches. The rule is about loss of feet contact, not the start of preparatory body movement.",
+      "options": [
+        {
+          "id": "0",
+          "text": "The outgoing swimmer must not move any part of the body before the touch"
+        },
+        {
+          "id": "1",
+          "text": "The outgoing swimmer’s feet may leave when the incoming head passes the flags"
+        },
+        {
+          "id": "2",
+          "text": "The feet retain platform contact until the incoming swimmer touches"
+        },
+        {
+          "id": "3",
+          "text": "The outgoing hands retain platform contact until the touch"
+        },
+        {
+          "id": "4",
+          "text": "The feet may leave early if entry into the water is after the touch"
+        }
+      ],
+      "correct": [
+        "2"
+      ],
+      "codes": [
+        "10.4.5"
+      ],
+      "ruleIds": [
+        "relay-exchange"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "detail-breakout",
+      "level": "challenge",
+      "stroke": "fly",
+      "type": "single",
+      "title": "Which observation meets the butterfly head-breakout deadline?",
+      "lesson": "The head must have broken the surface at or before 15m after the start and every turn. A hand surfacing does not replace head breakout; 15.01m is late.",
+      "hint": "Think about the exact action and when it happens. The head must have broken the surface at or before 15m after the start and every turn. A hand surfacing does not replace head breakout; 15.01m is late.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Head first surfaces at 15.01m"
+        },
+        {
+          "id": "1",
+          "text": "Head first surfaces at exactly 15m"
+        },
+        {
+          "id": "2",
+          "text": "Hand surfaces at 14m; head at 16m"
+        },
+        {
+          "id": "3",
+          "text": "Head stays submerged beyond 15m after a turn only"
+        },
+        {
+          "id": "4",
+          "text": "No head breakout is needed if the swimmer is still kicking"
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "8.6"
+      ],
+      "ruleIds": [
+        "fly-underwater"
+      ],
+      "prompts": []
+    },
+    {
+      "id": "goggles-coaching",
+      "title": "Your goggles come off during your race. What is the club’s coaching advice?",
+      "lesson": "Keep swimming and finish the race without touching or trying to fix the goggles. Stay focused on your swimming; talk to your coach afterwards.",
+      "hint": "Keep swimming and finish the race without touching or trying to fix the goggles. Stay focused on your swimming; talk to your coach afterwards.",
+      "level": "basics",
+      "stroke": "general",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "text": "Keep swimming without adjusting them"
+        },
+        {
+          "id": "1",
+          "text": "Stop to put them back on"
+        },
+        {
+          "id": "2",
+          "text": "Keep stopping to check where they are"
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "codes": [],
+      "ruleIds": [],
+      "prompts": [],
+      "authority": "club"
+    },
+    {
+      "id": "dq-learning",
+      "title": "You have been disqualified. Which two actions help you learn?",
+      "lesson": "A DQ is a chance to learn. Ask your coach what happened and practise the relevant skill. It does not make you a bad swimmer or erase your effort.",
+      "hint": "A DQ is a chance to learn. Ask your coach what happened and practise the relevant skill. It does not make you a bad swimmer or erase your effort.",
+      "level": "basics",
+      "stroke": "general",
+      "type": "multi",
+      "options": [
+        {
+          "id": "0",
+          "text": "Ask your coach what happened"
+        },
+        {
+          "id": "1",
+          "text": "Decide that you are a bad swimmer"
+        },
+        {
+          "id": "2",
+          "text": "Choose a skill to practise before the next race"
+        },
+        {
+          "id": "3",
+          "text": "Avoid racing again"
+        }
+      ],
+      "correct": [
+        "0",
+        "2"
+      ],
+      "codes": [],
+      "ruleIds": [],
+      "prompts": [],
+      "authority": "club"
+    },
+    {
+      "id": "observe-free-wall",
+      "title": "Does this freestyle turn need a hand touch?",
+      "stroke": "free",
+      "codes": [
+        "5.2"
+      ],
+      "ruleIds": [
+        "free-wall"
+      ],
+      "level": "confidence",
+      "type": "single",
+      "lesson": "Some part of the body must touch at each length. Feet are sufficient in freestyle.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "No: the feet make the required wall contact."
+        },
+        {
+          "id": "1",
+          "text": "Yes: a hand must touch before the feet."
+        },
+        {
+          "id": "2",
+          "text": "No contact is needed in a tumble turn."
+        },
+        {
+          "id": "3",
+          "text": "Only the referee may choose which body part touches."
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "wall",
+        "frames": [
+          {
+            "title": "Approach",
+            "caption": "The swimmer approaches an ordinary freestyle turn.",
+            "contact": "none"
+          },
+          {
+            "title": "Contact",
+            "caption": "Both feet contact the wall. The body is level and the arms are extended in streamline. No hand touches the wall.",
+            "contact": "feet"
+          },
+          {
+            "title": "Departure",
+            "caption": "The swimmer leaves the wall after that feet contact.",
+            "contact": "away"
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-free-finish",
+      "title": "Can the final-5m finish allowance justify this approach to a turn?",
+      "stroke": "free",
+      "codes": [
+        "5.3",
+        "5.4"
+      ],
+      "ruleIds": [
+        "free-underwater",
+        "free-finish"
+      ],
+      "level": "confidence",
+      "type": "single",
+      "lesson": "The swimmer becomes completely submerged while still swimming towards an ordinary turn, before beginning the turn. The finish-reaching exception does not apply. Submersion during the turn itself is a separate permission.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes, because the swimmer is inside the last 5m."
+        },
+        {
+          "id": "1",
+          "text": "No: this is still the approach to an ordinary turn."
+        },
+        {
+          "id": "2",
+          "text": "Yes, if they touch with their feet."
+        },
+        {
+          "id": "3",
+          "text": "More information is needed about the hand position."
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "distance",
+        "frames": [
+          {
+            "title": "Within 5m",
+            "caption": "The head has passed the 5m marker on the way to an ordinary turn.",
+            "distance": "Inside the final 5m",
+            "submerged": false
+          },
+          {
+            "title": "Still approaching",
+            "caption": "The swimmer becomes completely submerged while swimming towards the wall, before beginning the turn.",
+            "distance": "Approach to TURN",
+            "submerged": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-back-finish",
+      "title": "Is this backstroke finish legal?",
+      "stroke": "back",
+      "codes": [
+        "6.5"
+      ],
+      "ruleIds": [
+        "back-finish"
+      ],
+      "level": "confidence",
+      "type": "single",
+      "lesson": "A backstroke finish requires a touch while on the back. Rotating onto the breast before this finish touch breaks that requirement.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes: any body position is allowed at the wall."
+        },
+        {
+          "id": "1",
+          "text": "No: the swimmer touches while on the breast."
+        },
+        {
+          "id": "2",
+          "text": "Yes: the head is above the water."
+        },
+        {
+          "id": "3",
+          "text": "It depends whether a hand or foot touches."
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "orientation",
+        "frames": [
+          {
+            "title": "Approach",
+            "caption": "The swimmer approaches the finish on the back.",
+            "orientation": "On the back"
+          },
+          {
+            "title": "Before contact",
+            "caption": "The swimmer rotates onto the breast before any wall contact.",
+            "orientation": "On the breast"
+          },
+          {
+            "title": "Finish touch",
+            "caption": "The hand touches the finish wall with the body on the breast.",
+            "orientation": "On the breast",
+            "contact": "hand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-breast-touch",
+      "title": "Two hands at different heights: what is the decision?",
+      "stroke": "breast",
+      "codes": [
+        "7.7"
+      ],
+      "ruleIds": [
+        "breast-touch"
+      ],
+      "level": "confidence",
+      "type": "single",
+      "lesson": "The hands must touch simultaneously without being stacked. They do not need to be at the same height. Both hands directly contact the wall here.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Legal: both separated hands touch at the same time."
+        },
+        {
+          "id": "1",
+          "text": "A breach: the hands must be level."
+        },
+        {
+          "id": "2",
+          "text": "A breach: both hands must be above the water."
+        },
+        {
+          "id": "3",
+          "text": "More information is needed about which hand is higher."
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "touch",
+        "frames": [
+          {
+            "title": "Approach",
+            "caption": "Both hands approach the wall. The right hand is lower.",
+            "touches": 0
+          },
+          {
+            "title": "Same instant",
+            "caption": "Both separated hands make direct wall contact at exactly the same time, at different heights.",
+            "touches": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-fly-timing",
+      "title": "Both hands reach the butterfly finish. Is that enough?",
+      "stroke": "fly",
+      "codes": [
+        "8.5"
+      ],
+      "ruleIds": [
+        "fly-touch"
+      ],
+      "level": "confidence",
+      "type": "single",
+      "lesson": "Two hands eventually touching is not enough. They must make contact simultaneously. The first hand touches earlier here.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes: both eventually touch."
+        },
+        {
+          "id": "1",
+          "text": "No: the two contacts are not simultaneous."
+        },
+        {
+          "id": "2",
+          "text": "Yes: the hands are not stacked."
+        },
+        {
+          "id": "3",
+          "text": "More information is needed about the hand heights."
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "touch",
+        "frames": [
+          {
+            "title": "First contact",
+            "caption": "The left hand touches. The right hand has not yet reached the wall.",
+            "touches": 1
+          },
+          {
+            "title": "Later contact",
+            "caption": "The right hand touches a moment later, while the left hand stays on the wall.",
+            "touches": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-medley-change",
+      "title": "Has the swimmer finished the backstroke section correctly?",
+      "stroke": "im",
+      "codes": [
+        "6.5",
+        "9.4"
+      ],
+      "ruleIds": [
+        "im-transition"
+      ],
+      "level": "confidence",
+      "type": "single",
+      "lesson": "The incoming backstroke section is finished by touching on the back. Rotation shown after that touch does not invalidate it. This question assesses the incoming finish only, not the subsequent breaststroke departure.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes: they touch on the back before rotating."
+        },
+        {
+          "id": "1",
+          "text": "No: rotation is never allowed after the backstroke touch."
+        },
+        {
+          "id": "2",
+          "text": "No: backstroke must finish with two hands."
+        },
+        {
+          "id": "3",
+          "text": "More information is needed about their first breaststroke kick."
+        }
+      ],
+      "correct": [
+        "0"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "orientation",
+        "frames": [
+          {
+            "title": "Backstroke finish",
+            "caption": "The hand touches while the swimmer is on the back.",
+            "orientation": "On the back",
+            "contact": "hand"
+          },
+          {
+            "title": "After the touch",
+            "caption": "Only after that touch does the swimmer begin to turn.",
+            "orientation": "Turning after touch"
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-relay-safe",
+      "title": "The arms move early. Which fact decides this takeover?",
+      "stroke": "relay",
+      "codes": [
+        "10.4.5"
+      ],
+      "ruleIds": [
+        "relay-exchange"
+      ],
+      "level": "challenge",
+      "type": "single",
+      "lesson": "Preparatory movement is allowed. The feet stay in contact with the platform until the incoming swimmer touches, and only then leave.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Any movement before the incoming touch is a breach."
+        },
+        {
+          "id": "1",
+          "text": "The outgoing head must remain still."
+        },
+        {
+          "id": "2",
+          "text": "Feet retain contact until the incoming touch; this takeover meets that requirement."
+        },
+        {
+          "id": "3",
+          "text": "The incoming swimmer must be entirely above the water."
+        },
+        {
+          "id": "4",
+          "text": "The outgoing swimmer must wait for a new starting signal."
+        }
+      ],
+      "correct": [
+        "2"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "relay",
+        "frames": [
+          {
+            "title": "Preparation",
+            "caption": "Arms move, but the outgoing feet remain on the platform. The incoming swimmer has not touched.",
+            "feet": true,
+            "hand": false
+          },
+          {
+            "title": "Incoming touch",
+            "caption": "The incoming swimmer touches while the outgoing feet still contact the platform.",
+            "feet": true,
+            "hand": true
+          },
+          {
+            "title": "Take off",
+            "caption": "The outgoing feet leave after the incoming touch.",
+            "feet": false,
+            "hand": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-relay-uncertain",
+      "title": "One picture of a relay: is it enough evidence?",
+      "stroke": "relay",
+      "codes": [
+        "10.4.5"
+      ],
+      "ruleIds": [
+        "relay-exchange"
+      ],
+      "level": "challenge",
+      "type": "single",
+      "lesson": "This one instant shows the hand at the wall and the feet off the block. It does not establish which happened first. You need the contact sequence; do not invent earlier frames.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Definitely legal: the incoming hand is on the wall."
+        },
+        {
+          "id": "1",
+          "text": "Definitely early: the outgoing feet are off the block."
+        },
+        {
+          "id": "2",
+          "text": "Definitely legal: the swimmer is facing forwards."
+        },
+        {
+          "id": "3",
+          "text": "A breach only if the arms moved first."
+        },
+        {
+          "id": "4",
+          "text": "More information needed: when did the feet leave relative to the touch?"
+        }
+      ],
+      "correct": [
+        "4"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "relay",
+        "frames": [
+          {
+            "title": "The only observed instant",
+            "caption": "Incoming hand touches the wall; outgoing feet are already off the platform. No earlier sequence was observed.",
+            "feet": false,
+            "hand": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "observe-breakout",
+      "title": "An early hand and a late head: has the limit been met?",
+      "stroke": "free",
+      "codes": [
+        "5.3"
+      ],
+      "ruleIds": [
+        "free-underwater"
+      ],
+      "level": "challenge",
+      "type": "single",
+      "lesson": "The head must have broken the surface at or before 15m after the start or turn. The hand surfacing earlier does not satisfy that condition. At 15.01m the head is late.",
+      "hint": "Watch the contact and timing. Use the written sequence to check exactly what happened.",
+      "options": [
+        {
+          "id": "0",
+          "text": "Yes: the hand surfaced at 14m."
+        },
+        {
+          "id": "1",
+          "text": "Yes: 15.01m is close enough."
+        },
+        {
+          "id": "2",
+          "text": "No: the entire body had to surface before 15m."
+        },
+        {
+          "id": "3",
+          "text": "No: the head first breaks the surface beyond 15m."
+        },
+        {
+          "id": "4",
+          "text": "More information needed: did the feet surface?"
+        }
+      ],
+      "correct": [
+        "3"
+      ],
+      "prompts": [],
+      "facts": "All other requirements are satisfied. Judge only the action shown and described.",
+      "observation": {
+        "scene": "distance",
+        "frames": [
+          {
+            "title": "14m after the start",
+            "caption": "A hand breaks the surface at 14m. The head is still underwater.",
+            "distance": "14.00m",
+            "submerged": true,
+            "handUp": true
+          },
+          {
+            "title": "15m line",
+            "caption": "The head is still fully underwater at 15m.",
+            "distance": "15.00m",
+            "submerged": true
+          },
+          {
+            "title": "Head surfaces",
+            "caption": "The head first breaks the surface at 15.01m.",
+            "distance": "15.01m",
+            "submerged": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "medley-free-depart",
+      "title": "Leaving a medley freestyle turn on your back: when may you kick?",
+      "level": "confidence",
+      "stroke": "im",
+      "type": "single",
+      "options": [
+        {
+          "id": "0",
+          "text": "Immediately, while still on the back."
+        },
+        {
+          "id": "1",
+          "text": "After rotating past vertical towards the breast."
+        },
+        {
+          "id": "2",
+          "text": "Only after a full arm stroke."
+        },
+        {
+          "id": "3",
+          "text": "Only after the head surfaces."
+        }
+      ],
+      "correct": [
+        "1"
+      ],
+      "codes": [
+        "9.3"
+      ],
+      "ruleIds": [
+        "im-free"
+      ],
+      "prompts": [],
+      "lesson": "A back departure is allowed in medley freestyle, but the swimmer must return past vertical towards the breast before any kick or stroke.",
+      "hint": "The rule sets a body-position condition before any kick or stroke."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "first-meet",
+      "title": "Feel ready for your first race",
+      "description": "Know where to go, what to listen for and how to learn from every swim.",
+      "level": "basics",
+      "steps": [
+        {
+          "title": "Prepare before you arrive",
+          "text": "Good preparation starts the night before, not when you are called to race.",
+          "kind": "Club race-day guidance",
+          "codes": [],
+          "visual": null,
+          "bullets": [
+            "Read which races you are entered in and check the meet arrangements. Pack your race kit, caps, goggles, spare kit, extra towels, poolside clothing, drinks and food. Plan your meals and arrival time, and get a good night’s rest.",
+            "Eat your planned pre-meet meal, check that your kit and extra towels are packed, and bring the food and drinks you will need. Arrive prepared, knowing which races you are swimming."
+          ]
+        },
+        {
+          "title": "Stay with your team and listen",
+          "text": "Your team managers are responsible for you on poolside and in the pool hall. Stay with the team, stay engaged and listen. Do not wander off to see your parents. You must be where the team managers can reach you; they will not come looking for you. If you need to leave the team area, speak to a team manager first.",
+          "kind": "Club race-day guidance",
+          "codes": [],
+          "visual": null,
+          "bullets": [
+            "Your team manager will tell you when to go to marshalling, where swimmers gather before racing. That does not replace your responsibility to listen and be ready. Go promptly when directed, listen for your name or heat, and ask if you are unsure."
+          ]
+        },
+        {
+          "title": "Arrive at your lane ready to race",
+          "text": "Know your race, heat and lane, and understand the plan you have discussed with your coach. Have your equipment ready. Put your cap and goggles on before you reach your lane so you arrive ready to race.",
+          "kind": "Club race-day guidance",
+          "codes": [],
+          "visual": null,
+          "bullets": [
+            "Your cap and goggles should already be on. Take off your outer clothing, keeping your swimming costume on, and get ready. If needed, you can dry the block down, especially if it has no wedge. Do this before the start procedure and follow the officials’ directions."
+          ]
+        },
+        {
+          "title": "The whistle is not the starting signal",
+          "text": "For a dive start, short whistles mean get ready and the long whistle means get onto the block. Take your starting position on “take your marks”. Only the starting signal starts the race.",
+          "codes": [
+            "4.1.1",
+            "4.1.3",
+            "4.1.4"
+          ],
+          "kind": "Rule explained",
+          "visual": "block"
+        },
+        {
+          "title": "Backstroke has two long whistles",
+          "text": "Enter the water on the first long whistle. Return to the starting position on the second. Face the starting end and hold the grips with both hands. Wait for the command and then the starting signal.",
+          "codes": [
+            "4.2.1",
+            "4.2.2",
+            "6.1"
+          ],
+          "kind": "Rule explained",
+          "visual": "grips"
+        },
+        {
+          "title": "Keep racing, then learn",
+          "text": "If your goggles come off, keep swimming and complete the race without touching or trying to fix them. Afterwards, return to your coach for feedback. A DQ is disappointing, but it is a chance to understand one thing and practise it for next time.",
+          "codes": [],
+          "kind": "Club coaching",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "start-order",
+        "back-place",
+        "signal-match",
+        "back-second",
+        "goggles-coaching",
+        "dq-learning"
+      ],
+      "takeaway": "Prepare before you arrive, stay with your team, listen for instructions and go to your lane ready to race. Afterwards, take one useful piece of feedback back to training."
+    },
+    {
+      "id": "starts",
+      "title": "Make sense of the start",
+      "description": "Practise the signals and positions for dive and water starts.",
+      "level": "basics",
+      "steps": [
+        {
+          "title": "Dive start: wait, position, go",
+          "text": "Get onto the platform on the long whistle. On “take your marks”, take your starting position with at least one foot touching the front. The rule does not prescribe a position for your hands. Be still and wait for the starting signal.",
+          "codes": [
+            "4.1.1",
+            "4.1.3",
+            "4.1.4"
+          ],
+          "kind": "Rule explained",
+          "visual": "marks",
+          "clubStartAdvice": true
+        },
+        {
+          "title": "Water start: face the starting end",
+          "text": "Backstroke and medley relay start in the water. Hold the starting grips with both hands. When using a backstroke ledge, at least one toe of each foot contacts the wall or touchpad; do not bend toes over its top. Do not stand in or on the gutter, or bend your toes over its lip.",
+          "codes": [
+            "4.2",
+            "6.1"
+          ],
+          "kind": "Rule explained",
+          "visual": "grips"
+        },
+        {
+          "title": "If the start is reset",
+          "text": "Do not guess or dive. Listen to the officials. If an early-start disqualification is declared before the signal, the procedure repeats from the appropriate long whistle. For backstroke, return to the starting position.",
+          "codes": [
+            "4.4.2"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "start-order",
+        "start-foot",
+        "back-grips",
+        "stand-down"
+      ],
+      "takeaway": "Whistles prepare the race; the starting signal begins it. Follow the official if a start is reset."
+    },
+    {
+      "id": "freestyle",
+      "title": "Freestyle: wall to wall",
+      "description": "Understand breakout, wall contact and the finish exception.",
+      "level": "basics",
+      "steps": [
+        {
+          "title": "Start and swimming",
+          "text": "A freestyle-only race permits any swimming style; front crawl is commonly used. After the start and every turn, your head must break the surface at or before 15m. A breakout at 15.01m is late.",
+          "codes": [
+            "5.1",
+            "5.3"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Turning: make contact",
+          "text": "Some part of your body must touch the wall at the end of every length. In a tumble turn, feet can make that contact. Being close to the wall is not enough.",
+          "codes": [
+            "5.2"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Finishing: a specific exception",
+          "text": "Normally, some part of your body remains at the surface. Once your head has passed the final 5m marker, complete submersion is allowed when reaching for the finish wall. This does not allow swimming the whole final 5m underwater or apply to an ordinary turn.",
+          "codes": [
+            "5.3",
+            "5.4"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "free-style-basic",
+        "head15",
+        "free-touch-basic",
+        "free-finish-check",
+        "observe-free-wall",
+        "observe-free-finish"
+      ],
+      "takeaway": "Head up by 15m. Touch every wall. Keep the finish exception separate from a turn."
+    },
+    {
+      "id": "backstroke",
+      "title": "Backstroke: know which wall action you need",
+      "description": "Separate ordinary swimming, a turn and the final touch.",
+      "level": "basics",
+      "steps": [
+        {
+          "title": "Start and swimming",
+          "text": "Start in the water, facing the starting end and holding the grips. Push away on your back. During ordinary swimming you may roll towards either side, but less than 90 degrees from horizontal; head position does not decide body orientation.",
+          "codes": [
+            "6.1",
+            "6.2"
+          ],
+          "kind": "Rule explained",
+          "visual": "grips"
+        },
+        {
+          "title": "Break out by 15 metres",
+          "text": "Your head must have broken the surface at or before 15m after the start and each turn. A hand breaking the surface earlier does not replace that requirement.",
+          "codes": [
+            "6.3"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "A turn has its own sequence",
+          "text": "For a backstroke-to-backstroke turn, you may rotate beyond vertical towards your front. Any arm action used to initiate the turn must be an immediate continuous single-arm pull or simultaneous double-arm pull. Touch the wall with some part of your body and leave on your back.",
+          "codes": [
+            "6.4"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "A finish is not that turn",
+          "text": "At the finish, touch while still on your back. This also applies when finishing the backstroke leg of an individual medley. There is a finish-reaching submersion allowance after the head passes the final 5m marker.",
+          "codes": [
+            "6.5",
+            "9.4"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "back-body-basic",
+        "back15-check",
+        "back-depart",
+        "back-finish-basic",
+        "observe-back-finish"
+      ],
+      "takeaway": "Leave a backstroke turn on your back; finish the backstroke leg with a touch on your back."
+    },
+    {
+      "id": "breaststroke",
+      "title": "Breaststroke: pullout, rhythm and touch",
+      "description": "Learn the pullout limit, simultaneous actions and the two-hand wall contact.",
+      "level": "basics",
+      "steps": [
+        {
+          "title": "The pullout after a start or turn",
+          "text": "One underwater arm pull may go back to the legs. One optional butterfly kick is allowed before the first breaststroke kick. Your head must have broken the surface before the hands turn inward at the widest part of the second arm stroke. Surfacing earlier is allowed. This is not a 15m test.",
+          "codes": [
+            "7.1"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Swimming together",
+          "text": "Arms act together; legs act together. Turn your feet outwards in the propulsive kick. During every complete stroke cycle, some part of your head breaks the surface. The ordinary rhythm is one pull followed by one kick.",
+          "codes": [
+            "7.3",
+            "7.4",
+            "7.5",
+            "7.6"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Two hands at every turn and finish",
+          "text": "Touch with both hands simultaneously, without stacking them. They may touch at different heights; incidental finger contact is allowed. The final arm stroke into a turn or finish may omit its following kick. The head may be submerged after the last pull, provided it broke the surface during the last complete or incomplete cycle before the touch.",
+          "codes": [
+            "7.7"
+          ],
+          "kind": "Rule explained",
+          "visual": "hands"
+        },
+        {
+          "title": "Turn departure: read the later clarification",
+          "text": "World Aquatics’ August guidance requires rotation past vertical towards the breast before any kick after a turn, including the optional dolphin kick, as well as breast orientation before the first arm pull. This app still flags the England application for confirmation. This point is explained here but is not used to score your answers.",
+          "codes": [
+            "7.3"
+          ],
+          "kind": "Later clarification · local application flagged",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "breast-legs-basic",
+        "breast-touch-basic",
+        "breast-kick",
+        "breast-surface",
+        "breast-last",
+        "observe-breast-touch"
+      ],
+      "takeaway": "Move together, know the pullout surfacing test, and bring two hands to the wall together."
+    },
+    {
+      "id": "butterfly",
+      "title": "Butterfly: together through the race",
+      "description": "Connect simultaneous actions, breakout and the touch.",
+      "level": "basics",
+      "steps": [
+        {
+          "title": "Swimming: arms and legs together",
+          "text": "Recover both arms forward together over the water and pull them back together underwater. Move the legs up and down together; different heights are allowed, alternating movements are not. A breaststroke kick is not allowed.",
+          "codes": [
+            "8.3",
+            "8.4"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Start and underwater phase",
+          "text": "After a start or turn, the underwater allowance includes one or more kicks and one arm pull that brings you to the surface. The head must break the surface at or before 15m.",
+          "codes": [
+            "8.6"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Turn and finish touches",
+          "text": "Touch with both hands simultaneously, without stacking them. Different heights and incidental finger contact are allowed. When reaching for the finish wall, complete submersion is allowed after the head passes the final 5m marker.",
+          "codes": [
+            "8.5",
+            "8.6"
+          ],
+          "kind": "Rule explained",
+          "visual": "hands"
+        },
+        {
+          "title": "Turn departure differs from breaststroke",
+          "text": "The August World Aquatics clarification requires the body to be on the breast after leaving the wall. Do not use the breaststroke turn permission as a butterfly technique. England application remains flagged in this app, so this departure point is not scored.",
+          "codes": [
+            "8.2"
+          ],
+          "kind": "Later clarification · local application flagged",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "fly-legs-basic",
+        "fly-arms",
+        "fly-hands",
+        "fly15",
+        "observe-fly-timing"
+      ],
+      "takeaway": "Move together, break out by 15m and touch with two hands together."
+    },
+    {
+      "id": "medley-relays",
+      "title": "Medley and relays: get the change right",
+      "description": "Practise stroke order, stroke changes and team takeovers.",
+      "level": "confidence",
+      "steps": [
+        {
+          "title": "Two races, two orders",
+          "text": "Individual medley: butterfly, backstroke, breaststroke, freestyle. Medley relay: backstroke, breaststroke, butterfly, freestyle. In medley freestyle, do not use backstroke, breaststroke or butterfly.",
+          "codes": [
+            "9.1",
+            "9.2",
+            "5.1"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Medley freestyle: turn first, then kick",
+          "text": "In medley freestyle, the body must be on the breast except during a turn. You may leave a turn on your back, but must rotate past vertical towards the breast before any kick or stroke. This includes a dolphin kick. This is the medley freestyle rule, separate from the flagged breaststroke departure guidance.",
+          "kind": "RULE EXPLAINED",
+          "codes": [
+            "9.3"
+          ]
+        },
+        {
+          "title": "Finish one stroke before starting the next",
+          "text": "Each medley section ends using that stroke’s finish rule. For backstroke to breaststroke, touch while on your back before turning. Do not apply the backstroke tumble-turn permission to the end of the backstroke section.",
+          "codes": [
+            "9.4",
+            "6.5"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "The relay takeover",
+          "text": "Your feet must keep contact with the starting platform until the incoming swimmer touches the wall. The key moment is feet leaving, not the start of preparatory body movement.",
+          "codes": [
+            "10.4.5"
+          ],
+          "kind": "Rule explained",
+          "visual": null
+        },
+        {
+          "title": "Clear the water considerately",
+          "text": "After an individual race, wait until all competitors finish and follow officials’ directions. With over-the-top starts, stay tight to the wall and lane rope, then leave promptly after the next race starts. After a relay leg, leave promptly without obstruction unless you are the last team swimmer; then wait as for an individual race.",
+          "codes": [],
+          "kind": "Club race-day guidance",
+          "visual": null
+        }
+      ],
+      "questions": [
+        "im-sequence",
+        "relay-sequence",
+        "im-change",
+        "relay-wait",
+        "medley-free",
+        "observe-medley-change",
+        "observe-relay-safe",
+        "medley-free-depart"
+      ],
+      "takeaway": "Know which order you are swimming, finish each stroke legally and watch the incoming touch."
+    },
+    {
+      "id": "look-closer",
+      "title": "Look closer: small details matter",
+      "description": "Compare clear examples and learn which detail changes the answer.",
+      "level": "challenge",
+      "steps": [
+        {
+          "title": "Breakout: the head must surface by 15m",
+          "text": "For freestyle, backstroke and butterfly, the head must have broken the surface at or before 15m after a start or turn. Look at the head and the distance together. A hand surfacing earlier does not meet this requirement.",
+          "codes": [
+            "5.3",
+            "6.3",
+            "8.6"
+          ],
+          "kind": "Rule explained",
+          "visual": null,
+          "examples": [
+            {
+              "label": "Meets the breakout deadline",
+              "text": "The head first breaks the surface at exactly 15m."
+            },
+            {
+              "label": "Misses the breakout deadline",
+              "text": "A hand surfaces at 14m, but the head first surfaces at 15.01m."
+            }
+          ]
+        },
+        {
+          "title": "Two-hand touch: together does not mean level",
+          "text": "For breaststroke and butterfly, both hands must touch at the same time and must not be stacked. Equal height and a visible gap are not extra requirements. Assess the touch described, not whether it looks unusual.",
+          "codes": [
+            "7.7",
+            "8.5"
+          ],
+          "kind": "Rule explained",
+          "visual": "hands",
+          "examples": [
+            {
+              "label": "Meets the touch requirement",
+              "text": "Both hands touch simultaneously at different heights, without being stacked."
+            },
+            {
+              "label": "Does not meet the touch requirement",
+              "text": "One hand touches first and the other arrives a moment later."
+            }
+          ]
+        },
+        {
+          "title": "Finish allowance: it does not apply at a turn",
+          "text": "In freestyle, complete submersion is allowed after the head has passed the final 5m marker when reaching for the finish wall. This is a specific finish allowance, not permission to swim an entire final 5m underwater or to submerge early on the approach to an ordinary turn.",
+          "kind": "Rule explained",
+          "codes": [
+            "5.3",
+            "5.4"
+          ],
+          "visual": null,
+          "examples": [
+            {
+              "label": "The finish allowance applies",
+              "text": "In the final length, the head has passed the 5m marker. The swimmer becomes fully submerged while reaching for the finish wall."
+            },
+            {
+              "label": "The finish allowance does not apply",
+              "text": "With more lengths still to swim, the swimmer becomes fully submerged 4m before the wall while still approaching it, before beginning the turn. The finish allowance cannot justify this."
+            }
+          ]
+        },
+        {
+          "title": "Relay takeover: watch the feet, not the arms",
+          "text": "An outgoing relay swimmer may begin preparatory movement before the incoming swimmer touches. The feet must keep contact with the platform until that touch. Starting an arm swing and leaving the block are different events.",
+          "kind": "Rule explained",
+          "codes": [
+            "10.4.5"
+          ],
+          "visual": null,
+          "examples": [
+            {
+              "label": "Meets the takeover contact requirement",
+              "text": "The arms swing before the incoming touch, but the feet stay on the block until the touch."
+            },
+            {
+              "label": "Does not meet the takeover contact requirement",
+              "text": "The feet leave before the incoming touch, even though the swimmer enters the water afterwards."
+            }
+          ]
+        },
+        {
+          "title": "Three other details to carry forward",
+          "text": "Bring the earlier lessons together: check the whole sequence, not just the final position.",
+          "kind": "CONNECT THE RULES",
+          "codes": [
+            "6.4",
+            "7.1",
+            "9.3",
+            "9.4"
+          ],
+          "bullets": [
+            "Backstroke turn: an immediate continuous single-arm or simultaneous double-arm pull may initiate the turn. Make wall contact and leave on your back.",
+            "Breaststroke pullout: at most one butterfly kick before the first breaststroke kick; the head must surface before the hands turn inward at the widest part of the second arm stroke. Earlier surfacing is allowed.",
+            "Medley change: finish the outgoing stroke legally. In the freestyle section, rotate from a back departure past vertical towards the breast before any kick or stroke."
+          ]
+        }
+      ],
+      "questions": [
+        "detail-touch",
+        "detail-free-finish",
+        "detail-back-turn",
+        "detail-pullout",
+        "detail-fly-touch",
+        "detail-medley",
+        "detail-relay",
+        "detail-breakout",
+        "observe-relay-uncertain",
+        "observe-breakout"
+      ],
+      "takeaway": "Name the stroke, the phase and the exact timing before making the call."
+    }
+  ],
+  "startCoaching": "For our dive start, put your hands over the front edge of the block. Your thumbs and palms should not rest on the top of the block. The aim is to push back against the block with your hands at the start. Practise this position with your coach. This is club technique advice; the rule does not prescribe a hand position.",
+  "meetPreparation": [
+    {
+      "title": "The night before",
+      "text": "Read which races you are entered in and check the meet arrangements. Pack your race kit, caps, goggles, spare kit, extra towels, poolside clothing, drinks and food. Plan your meals and arrival time, and get a good night’s rest."
+    },
+    {
+      "title": "Before you leave home",
+      "text": "Eat your planned pre-meet meal, check that your kit and extra towels are packed, and bring the food and drinks you will need. Arrive prepared, knowing which races you are swimming."
+    },
+    {
+      "title": "Stay with your team",
+      "text": "Your team managers are responsible for you on poolside and in the pool hall. Stay with the team, stay engaged and listen. Do not wander off to see your parents. You must be where the team managers can reach you; they will not come looking for you. If you need to leave the team area, speak to a team manager first."
+    },
+    {
+      "title": "When it is time for marshalling",
+      "text": "Your team manager will tell you when to go to marshalling, where swimmers gather before racing. That does not replace your responsibility to listen and be ready. Go promptly when directed, listen for your name or heat, and ask if you are unsure."
+    },
+    {
+      "title": "Before you go to your lane",
+      "text": "Know your race, heat and lane, and understand the plan you have discussed with your coach. Have your equipment ready. Put your cap and goggles on before you reach your lane so you arrive ready to race."
+    },
+    {
+      "title": "At your lane",
+      "text": "Your cap and goggles should already be on. Take off your outer clothing, keeping your swimming costume on, and get ready. If needed, you can dry the block down, especially if it has no wedge. Do this before the start procedure and follow the officials’ directions."
+    }
+  ],
+  "terms": [
+    {
+      "id": "simultaneous",
+      "term": "Simultaneous",
+      "aliases": [],
+      "definition": "Happening at the same time. At the breaststroke or butterfly wall, both hands must contact at the same instant."
+    },
+    {
+      "id": "separated",
+      "term": "Separated hands",
+      "aliases": [],
+      "definition": "Hands not stacked on top of one another. A visible gap is not required; incidental finger contact is permitted."
+    },
+    {
+      "id": "pullout",
+      "term": "Pullout",
+      "aliases": [],
+      "definition": "The permitted breaststroke sequence after a start or turn, with its one long arm pull, optional single butterfly kick and head-emergence deadline."
+    },
+    {
+      "id": "on-back",
+      "term": "On the back",
+      "aliases": [],
+      "definition": "Backstroke’s body position allows roll up to, but not including, 90 degrees from horizontal; head position is not decisive."
+    },
+    {
+      "id": "transition",
+      "term": "Medley transition",
+      "aliases": [],
+      "definition": "The change between stroke sections. The outgoing section must first satisfy its own finish rule."
+    },
+    {
+      "id": "takeover",
+      "term": "Relay takeover",
+      "aliases": [],
+      "definition": "The exchange between swimmers. The outgoing feet retain platform contact until the incoming swimmer touches."
+    },
+    {
+      "id": "referee",
+      "term": "Referee",
+      "aliases": [],
+      "definition": "The official with authority over the competition decision, distinct from an observing judge’s report."
+    },
+    {
+      "id": "heat",
+      "term": "Heat",
+      "aliases": [
+        "heats"
+      ],
+      "definition": "One group of swimmers racing at the same time in an event."
+    },
+    {
+      "id": "lane",
+      "term": "Lane",
+      "aliases": [
+        "lanes"
+      ],
+      "definition": "Your allocated strip of the pool. Check your heat and lane before going to the start."
+    },
+    {
+      "id": "marshalling",
+      "term": "Marshalling",
+      "aliases": [
+        "call room"
+      ],
+      "definition": "The place or process where swimmers are organised before racing. Listen to your team manager and the marshals."
+    },
+    {
+      "id": "team-manager",
+      "term": "Team manager",
+      "aliases": [
+        "team managers"
+      ],
+      "definition": "The person supporting and supervising your team on poolside. Stay with the team and tell them before you need to leave the team area."
+    },
+    {
+      "id": "block",
+      "term": "Starting block",
+      "aliases": [
+        "block",
+        "platform"
+      ],
+      "definition": "The raised platform used for a dive start. Get on when instructed by the whistle sequence."
+    },
+    {
+      "id": "wedge",
+      "term": "Wedge",
+      "aliases": [
+        "rear wedge"
+      ],
+      "definition": "The adjustable inclined foot support at the back of some starting blocks."
+    },
+    {
+      "id": "ledge",
+      "term": "Backstroke ledge",
+      "aliases": [
+        "ledge"
+      ],
+      "definition": "A support for the feet at a backstroke start. It does not replace the requirement for at least one toe of each foot to contact the wall or touchpad."
+    },
+    {
+      "id": "touchpad",
+      "term": "Touchpad",
+      "aliases": [
+        "touchpads"
+      ],
+      "definition": "The timing panel on the pool end wall. A swimmer’s contact can trigger the electronic time."
+    },
+    {
+      "id": "breakout",
+      "term": "Breakout",
+      "aliases": [
+        "break out"
+      ],
+      "definition": "The transition from the underwater phase into swimming at the surface."
+    },
+    {
+      "id": "leg",
+      "term": "Relay leg",
+      "aliases": [],
+      "definition": "One swimmer’s part of a relay race. In a medley, a section also refers to one stroke’s part of the race."
+    },
+    {
+      "id": "medley",
+      "term": "Medley",
+      "aliases": [
+        "individual medley",
+        "medley relay"
+      ],
+      "definition": "A race combining all four strokes. Individual medley order is butterfly, backstroke, breaststroke, freestyle; medley relay order is backstroke, breaststroke, butterfly, freestyle."
+    },
+    {
+      "id": "vertical",
+      "term": "Vertical",
+      "aliases": [
+        "past vertical"
+      ],
+      "definition": "The side-on boundary between being on the back and being on the breast. Rotation past that boundary towards the front is described as past vertical towards the breast."
+    },
+    {
+      "id": "submerged",
+      "term": "Submerged",
+      "aliases": [
+        "submersion"
+      ],
+      "definition": "Below the water surface. Completely submerged means no part of the body breaks the surface."
+    },
+    {
+      "id": "propulsive",
+      "term": "Propulsive",
+      "aliases": [
+        "propulsive kick"
+      ],
+      "definition": "Producing the force that moves the swimmer forwards; the propulsive part of the kick is the part that drives the swimmer."
+    },
+    {
+      "id": "dq",
+      "term": "DQ",
+      "aliases": [
+        "disqualification",
+        "disqualified"
+      ],
+      "definition": "A disqualification means a rule breach affected the result of that swim. Ask your coach what happened and practise the correction; it does not define you as a swimmer."
+    },
+    {
+      "id": "over-the-top",
+      "term": "Over-the-top starts",
+      "aliases": [
+        "over-the-top"
+      ],
+      "definition": "The next race starts while the previous swimmers wait in the water. Stay tight to the wall and lane rope, follow officials’ instructions, then clear the water promptly after the start."
+    }
+  ]
+}
