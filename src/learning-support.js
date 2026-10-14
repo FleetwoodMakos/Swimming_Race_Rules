@@ -6,9 +6,9 @@ function showWords(id){
  const existing=document.getElementById('word-dialog');if(existing){existing.close();existing.remove();}
  const trigger=document.activeElement,dialog=node('dialog',null,'word-dialog');dialog.id='word-dialog';dialog.setAttribute('aria-labelledby','word-title');
  const title=node('h2',id?LEARNING.terms.find(t=>t.id===id)?.term:'Swimming words');title.id='word-title';
- const close=node('button','Close','button secondary');close.type='button';close.addEventListener('click',()=>dialog.close());dialog.append(title,close);
+ const close=node('button','Close','button secondary');close.type='button';close.addEventListener('click',()=>dialog.close());dialog.append(append(node('div',null,'word-dialog-heading'),title,close));
  if(id){const term=LEARNING.terms.find(t=>t.id===id);dialog.append(node('p',term.definition));const all=node('button','See all swimming words','text-button');all.addEventListener('click',()=>{dialog.close();showWords();});dialog.append(all);}
- else{const label=node('label','Find a word');const input=node('input');input.type='search';input.placeholder='Try marshalling or pullout';label.append(input);dialog.append(label);const list=node('div'),status=node('p',null,'small-note');status.setAttribute('role','status');dialog.append(status,list);const update=()=>{list.replaceChildren();const needle=input.value.trim().toLowerCase(),terms=LEARNING.terms.filter(t=>[t.term,...t.aliases,t.definition].join(' ').toLowerCase().includes(needle));status.textContent=terms.length+' '+(terms.length===1?'word':'words');for(const term of terms){const item=node('section');item.append(node('h3',term.term),node('p',term.definition));list.append(item);}};input.addEventListener('input',update);update();}
+ else{const label=node('label','Find a word');const input=node('input');input.type='search';input.placeholder='Try marshalling or pullout';label.append(input);dialog.append(label);const list=node('div'),status=node('p',null,'small-note');status.setAttribute('role','status');dialog.append(status,list);const update=()=>{list.replaceChildren();const needle=input.value.trim().toLowerCase(),terms=LEARNING.terms.filter(t=>[t.term,...t.aliases,t.definition].join(' ').toLowerCase().includes(needle)).sort((a,b)=>a.term.localeCompare(b.term,'en-GB'));status.textContent=terms.length+' '+(terms.length===1?'word':'words');for(const term of terms){const item=node('section');item.append(node('h3',term.term),node('p',term.definition));list.append(item);}};input.addEventListener('input',update);update();}
  dialog.addEventListener('close',()=>{dialog.remove();if(trigger?.isConnected)trigger.focus();},{once:true});document.body.append(dialog);dialog.showModal();close.focus();
 }
 function observationGraphic(scene,f){
@@ -33,7 +33,7 @@ function observationGraphic(scene,f){
   s.append(svgNode('rect',{x:0,y:178,width:600,height:202,fill:water}),path('M0 178 H600','#5cabc8',2),text(25,35,f.distance,24),text(25,70,f.submerged?'Head is still below the surface':'Head breaks the surface',17),text(25,333,'SWIMMING DIRECTION →',15));if(f.handUp)s.append(text(365,134,'Hand above water',14),path('M420 141 L391 166',far,1.5));
  }else if(scene==='wall'){
   pool(70,150);s.append(text(25,34,'FREESTYLE TURN · SIDE VIEW',17));
-  s.append(text(215,108,f.contact==='feet'?'Feet plant · body level · arms in streamline':f.contact==='away'?'Push away in a tight streamline →':'← Last strokes into the turn',f.contact==='feet'?15:17));
+  s.append(text(215,f.contact==='none'?78:108,f.contact==='feet'?'Feet plant · body level · arms in streamline':f.contact==='away'?'Push away in a tight streamline →':'← Last strokes into the turn',f.contact==='feet'?15:17));
   if(f.contact==='feet')s.append(path('M78 230 H432',far,1),text(85,306,'Head and feet at the same depth',15));
  }else{
   pool(70,166);s.append(text(25,35,f.orientation,23),text(255,286,f.orientation==='On the back'?'Chest faces up ↑':f.orientation==='On the breast'?'Chest faces down ↓':'Rotation follows the legal touch ↻',15),text(90,326,f.contact==='hand'?'Hand touching the wall':'No wall contact at this instant',16));

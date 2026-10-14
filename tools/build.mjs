@@ -8,7 +8,7 @@ import { validateContent } from '../src/logic.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 // Explicit ownership/order: state and shared view helpers, views, then controller/startup.
-const RUNTIME_FILES = ['state.js', 'views.js', 'pool-views.js', 'rulebook-views.js', 'updates-views.js', 'learning-support.js', 'journey.js', 'lesson-views.js', 'progress.js', 'start-sounds.js', 'app.js'];
+const RUNTIME_FILES = ['state.js', 'views.js', 'pool-views.js', 'rulebook-views.js', 'updates-views.js', 'learning-support.js', 'journey.js', 'lesson-views.js', 'progress.js', 'start-sounds.js', 'reaction-game.js', 'app.js'];
 const digest = (value, encoding = 'base64') => createHash('sha256').update(value).digest(encoding);
 const lineEndings = (value) => value.replace(/\r\n?/g, '\n');
 

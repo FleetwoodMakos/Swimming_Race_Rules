@@ -1,8 +1,13 @@
 {
   "name": "swimming-race-rules",
-  "version": "1.7.0",
+  "version": "1.9.0",
   "private": true,
-  "description": "Fleetwood Mako’s swimming rules learning app",
-  "engines": {"node": ">=20"},
-  "scripts": {"build": "node tools/build.mjs", "test": "node tools/test.mjs"}
+  "description": "Fleetwood Mako\u2019s swimming rules learning app",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/test.mjs"
+  }
 }

@@ -1,8 +1,10 @@
 # Publication
 
+The user explicitly authorised publishing the finished v1.9 update on 14 October 2026. This supersedes the earlier instruction to keep v1.8 local. The v1.9 release includes the v1.8 cleanup and reaction game.
+
 Target repository: `FleetwoodMakos/Swimming_Race_Rules`, branch `main`.
 
-The repository is private. Uploading this release does not change its audience or enable public GitHub Pages hosting. The runnable app is present at both `index.html` and `dist/index.html`. The existing CNAME for `rules.fleetwoodmakos.com` is preserved. If GitHub Pages is configured to serve the repository root, it can serve the root app. Hosting settings are not changed by the source upload.
+Source updates preserve the existing repository visibility and hosting configuration. The runnable app is present at both `index.html` and `dist/index.html`. The existing CNAME for `rules.fleetwoodmakos.com` is preserved. If GitHub Pages is configured to serve the repository root, it can serve the root app. Hosting settings are not changed by the source upload.
 
 The original README commit is retained in Git history. Version 1.6 is preserved separately in the local project as a rollback reference.
 

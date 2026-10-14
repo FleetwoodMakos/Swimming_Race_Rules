@@ -2,7 +2,7 @@ const STROKES = [['all','All strokes'],['free','Freestyle'],['back','Backstroke'
 const PHASES = [['all','Every phase'],['start','Start & entry'],['underwater','Underwater'],['swimming','Swimming action'],['approach','Approach'],['touch','Touch & turn'],['departure','Leave the wall'],['finish','Finish']];
 const OUTCOMES = {legal:'Legal in these circumstances',breach:'A rule breach',more:'More information needed'};
 const STORE = 'mako-race-rules-' + DATA.meta.contentVersion;
-const state = {area:'home',poolLength:25,codeQuery:'',ruleCategory:'all',tableQuery:'',tableCategory:'all',stroke:'breast',phase:'all',query:'',quizStroke:'all',question:0,answers:Object.create(null)};
+const state = {area:location.hash==='#reaction'?'reaction':'home',poolLength:25,codeQuery:'',ruleCategory:'all',tableQuery:'',tableCategory:'all',stroke:'breast',phase:'all',query:'',quizStroke:'all',question:0,answers:Object.create(null)};
 try { const saved=JSON.parse(localStorage.getItem(STORE)||'{}'); for(const s of DATA.scenarios) if(Object.hasOwn(OUTCOMES,saved[s.id])) state.answers[s.id]=saved[s.id]; } catch {}
 const root=document.getElementById('app');
 const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined&&text!==null)e.textContent=text;if(cls)e.className=cls;return e;};

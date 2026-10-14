@@ -4,7 +4,7 @@ const LEARNING_STROKES = STROKE_IDS.filter((value) => value !== 'general');
 const PHASE_IDS = ['start', 'underwater', 'swimming', 'approach', 'touch', 'departure', 'finish'];
 const RULE_OUTCOME_IDS = ['legal', 'breach', 'more'];
 const OFFICIAL_HOSTS = new Set([
-  'www.worldaquatics.com', 'resources.fina.org', 'www.swimming.org', 'www.britishswimming.org', 'www.aquaticsgb.com',
+  'www.microleaguenw.org.uk','worldathletics.org','api.fia.com','www.omegatiming.com','fepsy.com','www.frontiersin.org','pmc.ncbi.nlm.nih.gov', 'www.worldaquatics.com', 'resources.fina.org', 'www.swimming.org', 'www.britishswimming.org', 'www.aquaticsgb.com',
   'eastmidlandswimming.org', 'www.eastmidlandswimming.org', 'swimnorthwest.org', 'www.swimnorthwest.org'
 ]);
 

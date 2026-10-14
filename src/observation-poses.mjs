@@ -24,7 +24,7 @@ export function observationPoses(scene,f){
  }
  if(scene==='distance')return [fixedSwimmer([245,f.submerged?218:178],0,[f.handUp?[-35,-35]:[0,0],[180,180]],[[178,182],[182,178]])];
  if(scene==='wall'){
-  if(f.contact==='none')return [fixedSwimmer([330,230],180,[[0,0],[4,-4]],legsRight)];
+  if(f.contact==='none')return [fixedSwimmer([330,150],180,[[180,180],[-35,-125]],[[2,-2],[-3,3]])];
   if(f.contact==='feet'){
    // Compact plant: feet and head at the same depth, level trunk, arms already in streamline.
    return [fixedSwimmer([134,230],0,streamline,null,[{point:[70,230],bend:1},{point:[70,222],bend:1}])];

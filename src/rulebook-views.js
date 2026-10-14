@@ -38,11 +38,7 @@ function rulebookLookup(main) {
   append(main, hero('CODE, STROKE OR RULE WORDING', 'Find a rule',
     'Start typing to narrow the rules immediately. Read the requirement and its plain-English explanation here. The rule statements are written in this app’s own words and carry the official reference code.'),
     node('p', 'Complete swimming section: World Aquatics Part Two, sections 1–17, including officials, seeding, timing, records, eligibility, safety and appendix guides. Related Swim England provisions are included separately. Search a chapter number to see its provisions.', 'small-note'));
-  const shortcuts = node('div', null, 'code-shortcuts');
-  for (const [code, title] of [['5.3', '5.3 · Freestyle underwater'], ['6.5', '6.5 · Backstroke finish'], ['7.7', '7.7 · Breaststroke touch'], ['9.4', '9.4 · Medley transitions']]) {
-    shortcuts.append(button(title, 'clause', code, 'stroke-button'));
-  }
-  append(main, shortcuts, button('View the master rules table', 'area', 'table', 'text-button'));
+  main.append(row(button('View the master rules table', 'area', 'table', 'text-button')));
   rulebookControls(main);
 }
 

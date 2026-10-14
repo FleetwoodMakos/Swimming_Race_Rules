@@ -29,6 +29,7 @@ function harness({ saved = null, denyRead = false, denyWrite = false, denyStorag
   };
   const sandbox = {
     DATA: data,
+    location: {hash: ""},
     document: { getElementById(id) {
       return id === 'app' ? root : id === 'search' ? { focus() { observed.searchFocus++; } } : null;
     } },

@@ -1,6 +1,6 @@
 # Swimming_Race_Rules
 
-Swimming Race Rules by Fleetwood Mako’s — **v1.7**.
+Swimming Race Rules by Fleetwood Mako’s — **v1.9**.
 
 An independent, browser-based learning resource for swimmers, parents and prospective volunteers. Eight guided lessons, 80 practice questions, a searchable swimming rulebook, pool diagrams and coaching guidance help people build confidence at their own pace.
 
@@ -8,7 +8,26 @@ An independent, browser-based learning resource for swimmers, parents and prospe
 
 Open the root `index.html` on a static host, or download `dist/index.html` and open it in a modern browser, or serve this repository locally and visit `/dist/index.html`. The root and `dist` copies are identical. The app is a single self-contained HTML file; no installation, account, external fonts or network assets are required. Official source links and the email button open external destinations only when selected.
 
-## New in v1.7
+## New in v1.9
+
+- The Mako Start Challenge: dive and backstroke sequences, a changing final pause, a giant gold tap button, early-start feedback and reaction times in milliseconds.
+- Optional visual signal, keyboard support, replay and cancellation when the page loses focus.
+- Optional nickname, native text sharing/copy fallback and a downloadable result picture. Names are held in memory only; nothing is automatically posted or uploaded.
+- Swimming-led reaction comparison table: first-force-response research, adult button presses, Bolt and an F1 driver estimate. McEvoy and Proud’s full block-departure times sit in a separate section below, illustrating the time left to push off after reacting. Completed player results join the table in ascending order, highlighted gold. Brief measurement labels stay visible; sources and fuller context sit under “About these times”.
+- Results link into the starting lessons, rules and volunteering journey. The game can open directly at `#reaction`.
+
+Local preview shares omit a public play link; the canonical link is included when the app runs at its HTTPS club domain. Device timing is recreational and is not an official measurement.
+
+## New in v1.8
+
+- Complete dive and backstroke start rehearsals: three separated short whistles, long whistle(s), preparation pauses, spoken command and starting signal. Written captions follow playback; sound remains opt-in and stoppable.
+- Whistle-style audio with a trill, distinct from the starting tone.
+- Clearer spacing for learning prompts, audio controls, quiz feedback, results and progress. Search controls have consistent sizing on desktop and phones.
+- Alphabetical swimming glossary and a simpler rule search without the four example shortcuts.
+- Freestyle turn approach shown at the water surface with fixed-length limbs.
+- Micro League North West Rule 11d linked in first-meet and relay learning. Its published water-start requirement is separated from the hand-release timing, which the linked rules do not confirm.
+
+## Added in v1.7
 
 - Personal progress by swimming topic, with completed lesson practices and recent rounds.
 - Revision collects questions missed across completed rounds. A later correct answer removes a question from revision.

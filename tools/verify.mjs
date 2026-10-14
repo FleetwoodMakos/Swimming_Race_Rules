@@ -243,6 +243,7 @@ try {
     writeFile(resolve(fixtureDir, 'progress-logic.mjs'), '// Synthetic fixture'),
     writeFile(resolve(fixtureDir, 'progress.js'), '// Synthetic fixture'),
     writeFile(resolve(fixtureDir, 'start-sounds.js'), '// Synthetic fixture'),
+    writeFile(resolve(fixtureDir, 'reaction-game.js'), '// Synthetic fixture'),
     writeFile(resolve(fixtureDir, 'progress-styles.css'), '/* Synthetic fixture */'),
     writeFile(resolve(fixtureDir, 'observation-poses.mjs'), '// Synthetic fixture'),
     writeFile(resolve(fixtureDir, 'journey-styles.css'), '/* Synthetic fixture */'),

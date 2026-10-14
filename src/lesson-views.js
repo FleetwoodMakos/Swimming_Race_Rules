@@ -37,6 +37,7 @@ function renderLesson(main){
  const prev=jbutton('← Previous section','lesson-step','-1','button secondary');prev.disabled=i===0;
  card.append(row(prev,i<l.steps.length-1?jbutton('Next section →','lesson-step','1'):jbutton('Practise this lesson →','lesson-practise',l.id)));
  if(i===l.steps.length-1){card.append(node('p','There is no pass mark. Beginner questions include help; applied questions let you try first. A hint is always available.','small-note'));if(journey.round&&!journey.round.complete)card.append(node('p','Starting this practice replaces your unfinished round. You can continue that round first.','small-note'),jbutton('Continue saved round','resume',undefined,'text-button'));}
+ if(l.id==='medley-relays'&&s.title==='The relay takeover')card.append(microLeagueNote());
  main.append(card);
  const index=node('nav',null,'lesson-sections');index.setAttribute('aria-label','Lesson sections');l.steps.forEach((step,n)=>{const b=jbutton((n+1)+'. '+step.title,'lesson-jump',String(n),'text-button');if(n===i)b.setAttribute('aria-current','step');index.append(b);});main.append(index);
 }
