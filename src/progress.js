@@ -6,7 +6,7 @@ function ensureRunId(r){if(!r.runId)r.runId=Date.now().toString(36)+'-'+Math.ran
 function recordLearningRound(r){ensureRunId(r);learningProgress=recordProgress(learningProgress,r,BANK);saveLearningProgress();}
 function stageName(level){return labelOf(STAGES,level);}
 function topicName(stroke){return stroke==='general'?'Race-day essentials':labelOf(STROKES,stroke);}
-function dateLabel(at){return new Date(at).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});}
+function dateLabel(at){const value=typeof at==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(at)?at+'T12:00:00Z':at;return new Date(value).toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/London'});}
 function progressHomeCard(){const ids=revisionIds(learningProgress,BANK),c=panel('Your next step',ids.length?ids.length+' questions to revisit from your completed rounds. A little practice now can help the next time.':'See your learning progress, choose a stage check or revisit what you have learned.');c.append(row(button('My progress →','area','progress'),ids.length?jbutton('Revise my tricky questions','revision',undefined,'button secondary'):null));return c;}
 function startTrackedRound(r){if(!r.ids.length)return;ensureRunId(r);journey.round=r;practiceScreen='round';state.area='quiz';saveJourney();render(true);}
 function pendingRoundNote(){return journey.round&&!journey.round.complete?node('p','Starting a new round or stage check replaces your unfinished round. You can continue it from Your journey.','small-note'):null;}
