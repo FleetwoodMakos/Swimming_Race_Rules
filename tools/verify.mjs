@@ -230,11 +230,14 @@ try {
   });
   const fixtureDir = resolve(scratch, 'fixture');
   await mkdir(fixtureDir);
-  await Promise.all(['logic.mjs', 'rulebook-logic.mjs', 'journey-logic.mjs', 'logo.txt','start-audio.json'].map((name) => copyFile(resolve(ROOT, 'src', name), resolve(fixtureDir, name))));
+  await Promise.all(['logic.mjs', 'rulebook-logic.mjs', 'journey-logic.mjs', 'logo.txt','start-audio.json','dq-logic.mjs'].map((name) => copyFile(resolve(ROOT, 'src', name), resolve(fixtureDir, name))));
   const malicious = fixture();
   malicious.rules[0].title = '</script><script>globalThis.injected=true</script><img src=x onerror=alert(1)> & \u2028';
   malicious.diagrams[0].labels[0] = '</script><svg onload="alert(1)">';
   await Promise.all([
+    writeFile(resolve(fixtureDir, 'dq-form.json'), JSON.stringify({rows:[]})),
+    writeFile(resolve(fixtureDir, 'dq-views.js'), '// Synthetic fixture'),
+    writeFile(resolve(fixtureDir, 'dq-styles.css'), '/* Synthetic fixture */'),
     writeFile(resolve(fixtureDir, 'content.json'), JSON.stringify(malicious)),
     writeFile(resolve(fixtureDir, 'journey-content.json'), JSON.stringify({questions:['a','b','c'].map(id=>({id,level:'basics',stroke:'general',type:'single',title:'Fixture',lesson:'Fixture',hint:'Fixture',options:[{id:'yes',text:'Yes'},{id:'no',text:'No'}],correct:['yes'],authority:'club',codes:[],ruleIds:[],prompts:[]})),lessons:[{id:'fixture',level:'basics',title:'Fixture',description:'Fixture',takeaway:'Fixture',steps:[{title:'Fixture',text:'Fixture',kind:'Fixture',codes:[]}],questions:['a','b','c']}]})),
     writeFile(resolve(fixtureDir, 'lesson-views.js'), '// Synthetic fixture'),
@@ -266,7 +269,7 @@ try {
     assert.equal((attackHtml.match(/<\/script>/g) || []).length, 1);
     assert.equal(attackHtml.includes('<img src=x onerror=alert(1)>'), false);
     assert.ok(attackHtml.includes('\\u003c/script\\u003e'));
-    const json = attackHtml.match(/const DATA = ([^\n]+);\nconst LEARNING/u)[1];
+    const json = attackHtml.match(/const DATA = ([^\n]+);\nconst DQ_FORM/u)[1];
     assert.equal(JSON.parse(json).rules[0].title, malicious.rules[0].title);
     assert.equal(JSON.parse(json).diagrams[0].labels[0], malicious.diagrams[0].labels[0]);
   });

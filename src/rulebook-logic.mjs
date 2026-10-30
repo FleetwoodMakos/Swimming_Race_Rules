@@ -10,7 +10,7 @@ export function normaliseRulebookText(value) {
     .replace(/[^a-z0-9.]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-export function searchRulebook(data, { query = '', category = 'all' } = {}) {
+export function searchRulebook(data, { query = '', category = 'all', dqRows = [] } = {}) {
   const records = Array.isArray(data) ? data : (data?.rulebook || []);
   const normalized = normaliseRulebookText(query);
   const codeAliases = new Map((Array.isArray(data?.ruleAliases) ? data.ruleAliases : []).map(entry => [entry.alias, entry.code]));
@@ -26,7 +26,8 @@ export function searchRulebook(data, { query = '', category = 'all' } = {}) {
     // remain searchable facts, so "90 degrees" can find the backstroke position.
     if (!numericTerms.every(term => code === term || code.startsWith(term.endsWith('.') ? term : term + '.'))) return false;
     const haystack = normaliseRulebookText([
-      entry.code, entry.category, entry.title, entry.statement, entry.plain, entry.issue
+      entry.code, entry.category, entry.title, entry.statement, entry.plain, entry.issue,
+      ...dqRows.filter(r => r.codes.includes(entry.code)).map(r => r.category + ' ' + r.text)
     ].join(' '));
     const words = haystack.split(' ');
     return textTerms.every(term => words.some(word => word.startsWith(term)));
@@ -36,5 +37,16 @@ export function searchRulebook(data, { query = '', category = 'all' } = {}) {
     const exact = matches.findIndex(entry => normaliseRulebookText(entry.code) === numericTerms[0]);
     if (exact > 0) matches.unshift(...matches.splice(exact, 1));
   }
+  return matches;
+}
+
+export function searchDqRows(rows, query = '', category = 'all') {
+  const terms = normaliseRulebookText(query).split(' ').filter(Boolean);
+  const matches = rows.filter(r => (category === 'all' || r.category === category) && terms.every(term => {
+    if (/^\d+(?:\.\d+)*$/.test(term)) return [...r.codes, ...r.relatedCodes].some(code => code === term || code.startsWith(term + '.'));
+    return normaliseRulebookText([r.category, r.text].join(' ')).split(' ').some(word => word.startsWith(term === 'fly' ? 'butterfly' : term));
+  }));
+  const code = terms.find(term => /^\d+(?:\.\d+)*$/.test(term));
+  if(code) matches.sort((a,b) => Number(b.codes.includes(code)) - Number(a.codes.includes(code)));
   return matches;
 }

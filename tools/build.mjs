@@ -4,11 +4,12 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { Script } from 'node:vm';
 import { validateJourney, validateLessons, validateLearningSupport } from '../src/journey-logic.mjs';
+import { validateDqForm } from '../src/dq-logic.mjs';
 import { validateContent } from '../src/logic.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 // Explicit ownership/order: state and shared view helpers, views, then controller/startup.
-const RUNTIME_FILES = ['state.js', 'views.js', 'pool-views.js', 'rulebook-views.js', 'updates-views.js', 'learning-support.js', 'journey.js', 'lesson-views.js', 'progress.js', 'start-sounds.js', 'reaction-game.js', 'app.js'];
+const RUNTIME_FILES = ['state.js', 'views.js', 'pool-views.js', 'rulebook-views.js', 'updates-views.js', 'learning-support.js', 'journey.js', 'lesson-views.js', 'progress.js', 'start-sounds.js', 'reaction-game.js', 'dq-views.js', 'app.js'];
 const digest = (value, encoding = 'base64') => createHash('sha256').update(value).digest(encoding);
 const lineEndings = (value) => value.replace(/\r\n?/g, '\n');
 
@@ -38,11 +39,16 @@ export function inspectApplicationSource(sources) {
 
 export async function build({ sourceDir = resolve(ROOT, 'src'), outputPath = resolve(ROOT, 'dist/index.html') } = {}) {
   const [dataText, logicText, cssText, logoText, runtimeText] = await Promise.all([
-    readFile(resolve(sourceDir, 'content.json'), 'utf8'), Promise.all(['logic.mjs','rulebook-logic.mjs','journey-logic.mjs','observation-poses.mjs','progress-logic.mjs'].map(name => readFile(resolve(sourceDir, name), 'utf8'))).then(parts => parts.join('\n')),
-    Promise.all(['styles.css', 'pool-styles.css', 'rulebook-styles.css', 'updates-styles.css','journey-styles.css','progress-styles.css'].map(name => readFile(resolve(sourceDir, name), 'utf8'))).then(parts => parts.join('\n')), readFile(resolve(sourceDir, 'logo.txt'), 'utf8'),
+    readFile(resolve(sourceDir, 'content.json'), 'utf8'), Promise.all(['logic.mjs','rulebook-logic.mjs','journey-logic.mjs','observation-poses.mjs','progress-logic.mjs','dq-logic.mjs'].map(name => readFile(resolve(sourceDir, name), 'utf8'))).then(parts => parts.join('\n')),
+    Promise.all(['styles.css', 'pool-styles.css', 'rulebook-styles.css', 'updates-styles.css','journey-styles.css','progress-styles.css','dq-styles.css'].map(name => readFile(resolve(sourceDir, name), 'utf8'))).then(parts => parts.join('\n')), readFile(resolve(sourceDir, 'logo.txt'), 'utf8'),
     Promise.all(RUNTIME_FILES.map((name) => readFile(resolve(sourceDir, name), 'utf8')))
   ]);
   const data = JSON.parse(dataText);
+  const dqForm = JSON.parse(await readFile(resolve(sourceDir, 'dq-form.json'), 'utf8'));
+  validateDqForm(dqForm, data);
+  const dqBytes = await readFile(resolve(ROOT, 'assets/AGB_DQ_FORM_FINAL.pdf'));
+  if (dqBytes.subarray(0,5).toString() !== '%PDF-' || dqBytes.length > 2000000) throw new Error('Invalid bundled PDF');
+  const dqPdf = dqBytes.toString('base64');
   const audio = JSON.parse(await readFile(resolve(sourceDir, 'start-audio.json'), 'utf8'));
   if(typeof audio.marks!=='string'||!/^data:audio\/wav;base64,[A-Za-z0-9+/]+={0,2}$/.test(audio.marks)||audio.marks.length>500000)throw new Error('Invalid start audio');
   const learning = JSON.parse(await readFile(resolve(sourceDir, 'journey-content.json'), 'utf8'));
@@ -61,7 +67,7 @@ export async function build({ sourceDir = resolve(ROOT, 'src'), outputPath = res
   if (!/^data:image\/png;base64,[A-Za-z0-9+/]+={0,2}$/.test(logo) || logo.length > 700000 ||
     Buffer.from(logo.split(',')[1] || '', 'base64').subarray(0, 8).toString('hex') !== '89504e470d0a1a0a') problems.push('Logo must be a bundled PNG data URI');
   if (problems.length) throw new Error(`Security checks failed:\n${problems.join('\n')}`);
-  const script = `(() => {\n'use strict';\nconst DATA = ${serializeForScript(data)};\nconst LEARNING = ${serializeForScript(learning)};\nconst LOGO = ${serializeForScript(logo)};\nconst START_AUDIO = ${serializeForScript(audio)};\n${logic}\n${runtime}\n})();`;
+  const script = `(() => {\n'use strict';\nconst DATA = ${serializeForScript(data)};\nconst DQ_FORM = ${serializeForScript(dqForm)};\nconst DQ_PDF = ${serializeForScript(dqPdf)};\nconst LEARNING = ${serializeForScript(learning)};\nconst LOGO = ${serializeForScript(logo)};\nconst START_AUDIO = ${serializeForScript(audio)};\n${logic}\n${runtime}\n})();`;
   new Script(script, { filename: 'bundled-application.js' });
   const scriptHash = digest(script);
   const styleHash = digest(styles);
@@ -69,6 +75,8 @@ export async function build({ sourceDir = resolve(ROOT, 'src'), outputPath = res
   const html = `<!doctype html>\n<html lang="en-GB">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="referrer" content="no-referrer">\n<meta http-equiv="Content-Security-Policy" content="${policy}">\n<meta name="description" content="Swimming Race Rules by Fleetwood Mako’s. Learn competition requirements, touches, turns and officiating scenarios offline.">\n<meta name="theme-color" content="#082d49">\n<title>Swimming Race Rules · Fleetwood Mako’s</title>\n<style>${styles}</style>\n</head>\n<body>\n<div id="app"></div>\n<noscript>Enable JavaScript to use this offline learning app.</noscript>\n<script>${script}</script>\n</body>\n</html>\n`;
   await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, html, 'utf8');
+  await mkdir(resolve(dirname(outputPath),'assets'),{recursive:true});
+  await writeFile(resolve(dirname(outputPath),'assets/AGB_DQ_FORM_FINAL.pdf'),dqBytes);
   if(sourceDir===resolve(ROOT,'src') && outputPath===resolve(ROOT,'dist/index.html'))await writeFile(resolve(ROOT,'index.html'),html,'utf8');
   return { file: outputPath, bytes: Buffer.byteLength(html), sha256: digest(html, 'hex'), scriptHash, styleHash,
     rules: data.rules.length, scenarios: data.scenarios.length, sources: data.sources.length };

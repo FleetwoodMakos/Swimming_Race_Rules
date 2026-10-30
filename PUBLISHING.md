@@ -1,6 +1,6 @@
 # Publication
 
-The user explicitly authorised publishing the finished v1.9 update on 14 October 2026. This supersedes the earlier instruction to keep v1.8 local. The v1.9 release includes the v1.8 cleanup and reaction game.
+The user explicitly authorised publishing v1.10 to GitHub and rules.fleetwoodmakos.com on 30 October 2026. This release adds the supplied Aquatics GB DQ form, all 55 reasons and their rule mappings, and targeted rule clarifications. It preserves the current British-date display fix.
 
 Target repository: `FleetwoodMakos/Swimming_Race_Rules`, branch `main`.
 

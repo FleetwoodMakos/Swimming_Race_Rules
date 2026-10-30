@@ -38,7 +38,7 @@ function rulebookLookup(main) {
   append(main, hero('CODE, STROKE OR RULE WORDING', 'Find a rule',
     'Start typing to narrow the rules immediately. Read the requirement and its plain-English explanation here. The rule statements are written in this app’s own words and carry the official reference code.'),
     node('p', 'Complete swimming section: World Aquatics Part Two, sections 1–17, including officials, seeding, timing, records, eligibility, safety and appendix guides. Related Swim England provisions are included separately. Search a chapter number to see its provisions.', 'small-note'));
-  main.append(row(button('View the master rules table', 'area', 'table', 'text-button')));
+  main.append(row(button('View the master rules table', 'area', 'table', 'text-button'),button('DQ form & codes','area','dq','text-button')));
   rulebookControls(main);
 }
 
@@ -79,7 +79,7 @@ function rulebookClause(entry, heading = 'h3') {
   append(requirement, node('h4', entry.code.startsWith('17.') && entry.source === 'wa-cr' ? 'Appendix guide · restated' : 'Rule requirement · restated'), node('p', entry.statement));
   const plain = node('section', null, 'rulebook-plain');
   append(plain, node('h4', 'In plain English'), node('p', entry.plain));
-  append(card, requirement, plain, rulebookIssue(entry), rulebookProvenance(entry));
+  append(card, requirement, plain, rulebookIssue(entry), dqClauseNotes(entry), rulebookProvenance(entry));
   return card;
 }
 
@@ -90,7 +90,7 @@ function renderRulebookResults(area) {
   if (!area) return;
   const query = table ? state.tableQuery : state.codeQuery;
   const category = table ? state.tableCategory : state.ruleCategory;
-  const matches = searchRulebook(DATA, { query, category });
+  const matches = searchRulebook(DATA, { query, category, dqRows: DQ_FORM.rows });
   const status = document.getElementById(prefix + '-count');
   if (status) status.textContent = matches.length + ' of ' + DATA.rulebook.length + ' rule provisions' + (query.trim() ? ' matching “' + query.trim() + '”' : '') + (category !== 'all' ? ' · ' + category : ' · All strokes and areas');
   area.replaceChildren();

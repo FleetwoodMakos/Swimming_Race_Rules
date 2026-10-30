@@ -1,7 +1,7 @@
 {
   "meta": {
-    "appVersion": "1.9",
-    "contentVersion": "2026.10.14-13",
+    "appVersion": "1.10",
+    "contentVersion": "2026.10.30-1",
     "verified": "2026-10-13",
     "scope": "Learning guidance for mainstream English competitive pool swimming, plus a master table covering the entire World Aquatics Part Two swimming section (sections 1–17), its event-specific competition administration and pool-layout appendices. Swim England Handbook 2026 v3 and relevant English adoption notices provide the domestic context. International-event requirements keep their stated scope and do not automatically become requirements at every English meet.",
     "reviewStatus": "The rule baseline retains its earlier official-source checks. New lessons and questions have been checked against that baseline and the retained official swimming extract. No qualified swimming official has reviewed this release. Requirements are restated in original wording with plain-English teaching; these restatements are not verbatim official text.",
@@ -13,6 +13,7 @@
       "The master table includes substantive clauses in all 17 Part Two sections. Pure headings are represented by their child provisions; all ten appendix diagrams have dimension/layout guides in original wording. This is not a facsimile of the official diagrams, a facility certification, or coverage of separately referenced Part One rules and other aquatic sports."
     ],
     "changelog": [
+      "30 October 2026 — Version 1.10: bundled the unchanged June Aquatics GB DQ card; checked all 55 reason rows and their rule codes, added searchable cross-references, and clarified backstroke turn completion, continuing breaststroke orientation and declared relay order. Later commentary and shorthand exceptions remain visible. This targeted check does not re-date the whole rulebook baseline.",
       "14 October 2026 — Version 1.5.1: redrawn starting positions, explicit club dive-start hand coaching, concrete paired examples in lesson eight, and fuller meet preparation/team-manager guidance.",
       "14 October 2026 — Version 1.5: eight guided lessons with saved reading position, progressive mixed-format practice, completion and next steps; 16 new questions including eight five-choice challenges; unambiguous one-hand touch diagram. Club coaching remains distinct from formal rules.",
       "14 October 2026: corrected goggle advice and separated individual, over-the-top and relay exit routines following club coaching review.",
@@ -169,6 +170,17 @@
       "verified": "2026-10-13",
       "location": "PDF p72: lap recording and warning signals; p75: freestyle and backstroke; p76: butterfly",
       "notes": "Historical primary-source comparison for selected changes: 400m freestyle lap counting/warnings and freestyle/butterfly finish submersion. The backstroke finish allowance already existed. This is not the governing current edition or an exhaustive comparison of every 2025–2026 change."
+    },
+    {
+      "id": "agb-dq-card",
+      "title": "Disqualification card with tick-box reasons",
+      "organisation": "Aquatics GB / World Aquatics",
+      "url": "https://www.britishswimming.org/documents/5191/AGB_DQ_FORM_FINAL.pdf",
+      "version": "25 June 2026",
+      "effective": "Printed version date; checked against the supplied form on 30 October 2026",
+      "verified": "2026-10-30",
+      "location": "Page 1: report; page 2: reasons and rule codes",
+      "notes": "Original supplied PDF is bundled unchanged under DQ form & codes. Its short labels are report prompts, not the complete rules or exceptions. Later commentary remains relevant."
     }
   ],
   "rules": [
@@ -727,7 +739,8 @@
       "summary": "When another backstroke length follows, the shoulders may roll beyond vertical onto the breast during the turn. An immediate, continuous single-arm or simultaneous double-arm pull may initiate it.",
       "requirements": [
         "For this backstroke-to-backstroke turn, touch the wall with some part of the body and be back on your back when you leave it (6.4).",
-        "If you use the permitted roll onto the breast and an arm pull to initiate the turn, that pull must be immediate and continuous: one arm or both arms together."
+        "If you use the permitted roll onto the breast and an arm pull to initiate the turn, that pull must be immediate and continuous: one arm or both arms together.",
+        "Start the turn when the permitted arm pull finishes; do not pause or glide on the breast."
       ],
       "permitted": [
         "The permitted roll onto the breast is part of executing the turn."
@@ -754,6 +767,11 @@
           "source": "wa-cr",
           "clause": "Part Two 9.4",
           "location": "p62"
+        },
+        {
+          "source": "agb-dq-card",
+          "clause": "6.4",
+          "location": "PDF p. 2"
         }
       ],
       "status": "verified",
@@ -1764,7 +1782,8 @@
       "summary": "The outgoing swimmer’s feet must retain contact with the starting platform until the incoming swimmer touches the wall.",
       "requirements": [
         "Begin the exchange from the starting platform, not with a running start from the pool deck.",
-        "Do not lose platform contact before the incoming wall touch."
+        "Do not lose platform contact before the incoming wall touch.",
+        "Swim in the team order declared to the officials."
       ],
       "permitted": [
         "Preparatory arm movement is not itself the foot-contact test; the feet must still retain the required platform contact."
@@ -1787,6 +1806,11 @@
           "source": "wa-cr",
           "clause": "Part Two 2.8.8",
           "location": "p55"
+        },
+        {
+          "source": "agb-dq-card",
+          "clause": "10.4.2",
+          "location": "PDF p. 2"
         }
       ],
       "status": "verified",
@@ -6976,8 +7000,8 @@
       "code": "6.4",
       "category": "Backstroke",
       "title": "Backstroke turn into another backstroke length",
-      "statement": "The turn requires wall contact by some part of the body. The shoulders may rotate beyond vertical towards the breast for the turn. If an arm action starts the turn, it must be an immediate, continuous pull with either one arm (a single-arm pull) or both arms simultaneously (a double-arm pull). The swimmer must be back on the back at wall departure.",
-      "plain": "For a backstroke-to-backstroke turn, roll and turn without interrupting the permitted pull, touch the wall, and push off on your back. This is not the backstroke-to-breaststroke medley transition.",
+      "statement": "The turn requires wall contact by some part of the body. The shoulders may rotate beyond vertical towards the breast for the turn. If an arm action starts the turn, it must be an immediate, continuous pull with either one arm (a single-arm pull) or both arms simultaneously (a double-arm pull). The swimmer must be back on the back at wall departure. The turn must be initiated at completion of that pull, without a pause or glide on the breast.",
+      "plain": "Roll straight into your backstroke turn. If you use a pull, keep it continuous and start the turn when it finishes; do not pause or glide on your front. Touch the wall and push off on your back. A back-to-breast medley change needs a backstroke finish instead.",
       "source": "wa-cr",
       "location": "PDF p. 61",
       "status": "verified",
@@ -7018,9 +7042,9 @@
     {
       "code": "7.2",
       "category": "Breaststroke",
-      "title": "Breaststroke position when the first pull starts",
-      "statement": "After a start or turn, the swimmer must be oriented on the breast from the instant the first arm stroke begins.",
-      "plain": "Be on your breast before you begin your first pull.",
+      "title": "Breaststroke body position from the first pull",
+      "statement": "From the beginning of the first arm stroke after a start or turn, the swimmer’s body must be on the breast during the swim. Rule 7.3 sets out the no-roll requirement and the turn exception, including the separately flagged later kick clarification.",
+      "plain": "Be on your breast from your first pull onwards. Read 7.3 for what changes at a turn.",
       "source": "wa-cr",
       "location": "PDF p. 61",
       "status": "verified",
@@ -7421,8 +7445,8 @@
       "code": "10.4.2",
       "category": "The race & relays",
       "title": "Declare the relay order",
-      "statement": "The team leader must specify and submit the swimmers’ racing order before the management committee’s stated deadline.",
-      "plain": "Give the officials your team order before the deadline.",
+      "statement": "The team leader must specify and submit the swimmers’ racing order before the management committee’s stated deadline. The team must compete in that declared order.",
+      "plain": "Submit your team order before the deadline, then swim in that order.",
       "source": "wa-cr",
       "location": "PDF p. 63",
       "status": "verified",

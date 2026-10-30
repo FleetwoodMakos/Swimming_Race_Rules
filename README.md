@@ -1,12 +1,20 @@
 # Swimming_Race_Rules
 
-Swimming Race Rules by Fleetwood Mako’s — **v1.9**.
+Swimming Race Rules by Fleetwood Mako’s — **v1.10**.
 
 An independent, browser-based learning resource for swimmers, parents and prospective volunteers. Eight guided lessons, 80 practice questions, a searchable swimming rulebook, pool diagrams and coaching guidance help people build confidence at their own pace.
 
 ## Open the app
 
 Open the root `index.html` on a static host, or download `dist/index.html` and open it in a modern browser, or serve this repository locally and visit `/dist/index.html`. The root and `dist` copies are identical. The app is a single self-contained HTML file; no installation, account, external fonts or network assets are required. Official source links and the email button open external destinations only when selected.
+
+## New in v1.10
+
+- Rules & sources → **DQ form & codes**, also linked from Find a rule and Scope & sources. Direct entry: `#dq`.
+- The unchanged Aquatics GB disqualification PDF (printed version 25 June 2026) is embedded for offline download and supplied in `assets/` and `dist/assets/`.
+- All 55 reason rows and 41 printed codes are searchable, with links to the full rules and explicit context for abbreviated wording.
+- Clarified backstroke turn completion, ongoing breaststroke body orientation and declared relay order. Existing later-commentary review notes remain.
+- See `docs/DQ-FORM-REVIEW.md` and `docs/dq-form-coverage.csv` for the full audit. The DQ page layout, search, rule dialog and PDF download have been checked in the built-in browser. Publication to rules.fleetwoodmakos.com was authorised on 30 October 2026.
 
 ## New in v1.9
 

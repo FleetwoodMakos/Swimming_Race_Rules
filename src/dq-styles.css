@@ -1,0 +1,8 @@
+.dq-download-card .action-row,.dq-reason .action-row {margin-top:1rem}
+.dq-review {margin-block:1.5rem}
+.dq-review summary {font-weight:700;cursor:pointer}
+.dq-controls {margin-top:1.5rem}
+.dq-reason h3 {font-size:1.13rem;line-height:1.6;overflow-wrap:anywhere}
+.dq-reason {margin-bottom:1rem}
+.dq-context {color:var(--muted,#52667e);line-height:1.65}
+#dq-download-status:empty {display:none}

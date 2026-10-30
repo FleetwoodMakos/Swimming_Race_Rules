@@ -1,0 +1,650 @@
+{
+  "title": "Aquatics GB disqualification card",
+  "version": "25 June 2026",
+  "checked": "30 October 2026",
+  "sourceUrl": "https://www.britishswimming.org/documents/5191/AGB_DQ_FORM_FINAL.pdf",
+  "sha256": "b17f7db99f71d423280cff2943e2c72c9401db281ad1022720c24a43e52b007a",
+  "rows": [
+    {
+      "id": "dq-01",
+      "category": "The Start",
+      "text": "Initiating a start before the signal.",
+      "codes": [
+        "4.4"
+      ],
+      "relatedCodes": [],
+      "note": "The report concerns initiating the start before the signal, not merely losing foot contact. The referee determines the disqualification.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-02",
+      "category": "Freestyle",
+      "text": "Did not touch the wall at the ____________ m turn ☐ or finish ☐",
+      "codes": [
+        "5.2"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-03",
+      "category": "Freestyle",
+      "text": "Head did not break the surface of the water at or before the 15m mark following the start ☐ or after _______ m turn ☐",
+      "codes": [
+        "5.3"
+      ],
+      "relatedCodes": [],
+      "note": "Keep the start and turn submersion allowances: the head must break the surface at or before 15m. The finish allowance requires part of the head to have passed 5m and a reach for the finish; it does not apply to a turn approach.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-04",
+      "category": "Freestyle",
+      "text": "Completely submerged during stroke except within 5m whilst reaching for the finish",
+      "codes": [
+        "5.3",
+        "5.4"
+      ],
+      "relatedCodes": [],
+      "note": "Keep the start and turn submersion allowances: the head must break the surface at or before 15m. The finish allowance requires part of the head to have passed 5m and a reach for the finish; it does not apply to a turn approach.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-05",
+      "category": "Backstroke",
+      "text": "Left position on the back except when executing a turn",
+      "codes": [
+        "6.2"
+      ],
+      "relatedCodes": [],
+      "note": "Ordinary swimming stays on the back; the specific turn permission is in 6.4.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-06",
+      "category": "Backstroke",
+      "text": "Head did not break the surface of the water at or before the 15m mark following the start ☐ or after _______ m turn ☐",
+      "codes": [
+        "6.3"
+      ],
+      "relatedCodes": [],
+      "note": "The head must surface by 15m after the start and turns. Full submersion is also permitted during the turn, and during the final reach under 6.5 once the head has passed 5m.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-07",
+      "category": "Backstroke",
+      "text": "Did not start executing the turn immediately after turning onto the breast at ____________ m turn",
+      "codes": [
+        "6.4"
+      ],
+      "relatedCodes": [],
+      "note": "After rolling onto the breast, execute the turn immediately. Any permitted single-arm or simultaneous double-arm pull must be immediate and continuous, with the turn initiated when the pull finishes. Touch the wall and leave on the back. A medley change to breaststroke requires a backstroke finish first (9.4).",
+      "audit": "clarified"
+    },
+    {
+      "id": "dq-08",
+      "category": "Backstroke",
+      "text": "Turn not initiated at completion of the arm pull after leaving position on the back during the ____________ m turn",
+      "codes": [
+        "6.4"
+      ],
+      "relatedCodes": [],
+      "note": "After rolling onto the breast, execute the turn immediately. Any permitted single-arm or simultaneous double-arm pull must be immediate and continuous, with the turn initiated when the pull finishes. Touch the wall and leave on the back. A medley change to breaststroke requires a backstroke finish first (9.4).",
+      "audit": "clarified"
+    },
+    {
+      "id": "dq-09",
+      "category": "Backstroke",
+      "text": "Did not touch the wall during the ____________ m turn",
+      "codes": [
+        "6.4"
+      ],
+      "relatedCodes": [],
+      "note": "After rolling onto the breast, execute the turn immediately. Any permitted single-arm or simultaneous double-arm pull must be immediate and continuous, with the turn initiated when the pull finishes. Touch the wall and leave on the back. A medley change to breaststroke requires a backstroke finish first (9.4).",
+      "audit": "clarified"
+    },
+    {
+      "id": "dq-10",
+      "category": "Backstroke",
+      "text": "Not on the back upon leaving the wall after the ____________ m turn",
+      "codes": [
+        "6.4"
+      ],
+      "relatedCodes": [],
+      "note": "After rolling onto the breast, execute the turn immediately. Any permitted single-arm or simultaneous double-arm pull must be immediate and continuous, with the turn initiated when the pull finishes. Touch the wall and leave on the back. A medley change to breaststroke requires a backstroke finish first (9.4).",
+      "audit": "clarified"
+    },
+    {
+      "id": "dq-11",
+      "category": "Backstroke",
+      "text": "Completely submerged during stroke except within 5m whilst reaching for the finish",
+      "codes": [
+        "6.3",
+        "6.5"
+      ],
+      "relatedCodes": [],
+      "note": "The head must surface by 15m after the start and turns. Full submersion is also permitted during the turn, and during the final reach under 6.5 once the head has passed 5m.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-12",
+      "category": "Backstroke",
+      "text": "Did not finish the race while on the back",
+      "codes": [
+        "6.5"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-13",
+      "category": "Breaststroke",
+      "text": "More than one downward butterfly kick prior to first breaststroke kick after the start ☐ or ____________ m turn ☐",
+      "codes": [
+        "7.1"
+      ],
+      "relatedCodes": [
+        "7.3"
+      ],
+      "note": "The single butterfly kick must precede the first breaststroke kick. Surface before the hands turn inward at the widest point of the second stroke. Later post-turn kick guidance is flagged in 7.3.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-14",
+      "category": "Breaststroke",
+      "text": "Head did not break the surface before the hands turned inward at the widest part of the second stroke after the start ☐ or ____________ m turn ☐",
+      "codes": [
+        "7.1"
+      ],
+      "relatedCodes": [
+        "7.3"
+      ],
+      "note": "The single butterfly kick must precede the first breaststroke kick. Surface before the hands turn inward at the widest point of the second stroke. Later post-turn kick guidance is flagged in 7.3.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-15",
+      "category": "Breaststroke",
+      "text": "Body not on the breast during stroke",
+      "codes": [
+        "7.2"
+      ],
+      "relatedCodes": [
+        "7.3"
+      ],
+      "note": "The card cites 7.2 for breast orientation during swimming. Read it with 7.3 for the no-roll rule and turn exception, including the August kick clarification.",
+      "audit": "clarified"
+    },
+    {
+      "id": "dq-16",
+      "category": "Breaststroke",
+      "text": "Stroke cycle not one arm stroke to one leg kick in that order",
+      "codes": [
+        "7.3"
+      ],
+      "relatedCodes": [
+        "7.7"
+      ],
+      "note": "Both arms move together, with one arm stroke followed by one leg kick. The final arm stroke into a turn or finish may omit the kick (7.7).",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-17",
+      "category": "Breaststroke",
+      "text": "Arm movements not simultaneous",
+      "codes": [
+        "7.3"
+      ],
+      "relatedCodes": [
+        "7.7"
+      ],
+      "note": "Both arms move together, with one arm stroke followed by one leg kick. The final arm stroke into a turn or finish may omit the kick (7.7).",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-18",
+      "category": "Breaststroke",
+      "text": "Hands not pushed forward together from the breast",
+      "codes": [
+        "7.4"
+      ],
+      "relatedCodes": [],
+      "note": "The card abbreviates the exceptions: elbows may emerge on the final stroke before a turn, during the turn and on the final stroke at the finish. The first pull after a start or turn may go beyond the hips.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-19",
+      "category": "Breaststroke",
+      "text": "Elbows not under the water during stroke",
+      "codes": [
+        "7.4"
+      ],
+      "relatedCodes": [],
+      "note": "The card abbreviates the exceptions: elbows may emerge on the final stroke before a turn, during the turn and on the final stroke at the finish. The first pull after a start or turn may go beyond the hips.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-20",
+      "category": "Breaststroke",
+      "text": "Hands brought back beyond the hip line during stroke",
+      "codes": [
+        "7.4"
+      ],
+      "relatedCodes": [],
+      "note": "The card abbreviates the exceptions: elbows may emerge on the final stroke before a turn, during the turn and on the final stroke at the finish. The first pull after a start or turn may go beyond the hips.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-21",
+      "category": "Breaststroke",
+      "text": "Head did not break the surface during each stroke cycle",
+      "codes": [
+        "7.5"
+      ],
+      "relatedCodes": [
+        "7.7"
+      ],
+      "note": "Head emergence is required during each complete cycle. Rule 7.7 also allows the head to submerge after the last pull if it surfaced during the final complete or incomplete cycle before the touch.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-22",
+      "category": "Breaststroke",
+      "text": "Leg movements not simultaneous",
+      "codes": [
+        "7.5"
+      ],
+      "relatedCodes": [
+        "7.7"
+      ],
+      "note": "Head emergence is required during each complete cycle. Rule 7.7 also allows the head to submerge after the last pull if it surfaced during the final complete or incomplete cycle before the touch.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-23",
+      "category": "Breaststroke",
+      "text": "Feet not turned out during propulsive part of the kick",
+      "codes": [
+        "7.6"
+      ],
+      "relatedCodes": [],
+      "note": "The one permitted butterfly kick in the start/turn pullout (7.1) is the exception. Feet may break the surface if this is not followed by a downward butterfly kick.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-24",
+      "category": "Breaststroke",
+      "text": "Executed a downward butterfly kick during stroke, prior to ____________ m turn ☐, or immediately prior to the finish ☐",
+      "codes": [
+        "7.6"
+      ],
+      "relatedCodes": [],
+      "note": "The one permitted butterfly kick in the start/turn pullout (7.1) is the exception. Feet may break the surface if this is not followed by a downward butterfly kick.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-25",
+      "category": "Breaststroke",
+      "text": "Did not touch at the ____________ m turn or finish ☐ with both hands ☐; separated ☐; simultaneously ☐",
+      "codes": [
+        "7.7"
+      ],
+      "relatedCodes": [],
+      "note": "The form offers three separate findings: both hands, separated, simultaneous. One hand must not be stacked on the other; a visible gap is not required and incidental finger contact is allowed.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-26",
+      "category": "Butterfly",
+      "text": "Body not on the breast during stroke",
+      "codes": [
+        "8.1"
+      ],
+      "relatedCodes": [
+        "8.2"
+      ],
+      "note": "The card cites 8.1 for breast orientation during swimming. Read it with 8.2 for the no-roll rule and the turn departure clarification. The August English-applicability note still applies.",
+      "audit": "later-guidance-note"
+    },
+    {
+      "id": "dq-27",
+      "category": "Butterfly",
+      "text": "Arms not brought forward simultaneously over the water",
+      "codes": [
+        "8.3"
+      ],
+      "relatedCodes": [
+        "8.6"
+      ],
+      "note": "The permitted single underwater pull after the start or turn is an exception (8.6).",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-28",
+      "category": "Butterfly",
+      "text": "Arms not brought backward simultaneously under the water",
+      "codes": [
+        "8.3"
+      ],
+      "relatedCodes": [
+        "8.6"
+      ],
+      "note": "The permitted single underwater pull after the start or turn is an exception (8.6).",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-29",
+      "category": "Butterfly",
+      "text": "Alternating movement of legs or feet",
+      "codes": [
+        "8.4"
+      ],
+      "relatedCodes": [],
+      "note": "Both legs move together. Different leg or foot heights are permitted, but alternating movement and breaststroke kicking are not.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-30",
+      "category": "Butterfly",
+      "text": "Leg movements not simultaneous",
+      "codes": [
+        "8.4"
+      ],
+      "relatedCodes": [],
+      "note": "Both legs move together. Different leg or foot heights are permitted, but alternating movement and breaststroke kicking are not.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-31",
+      "category": "Butterfly",
+      "text": "Breaststroke kicking movement",
+      "codes": [
+        "8.4"
+      ],
+      "relatedCodes": [],
+      "note": "Both legs move together. Different leg or foot heights are permitted, but alternating movement and breaststroke kicking are not.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-32",
+      "category": "Butterfly",
+      "text": "Did not touch at the ____________ m turn or finish ☐ with both hands ☐; separated ☐; simultaneously ☐",
+      "codes": [
+        "8.5"
+      ],
+      "relatedCodes": [],
+      "note": "The form offers three separate findings: both hands, separated, simultaneous. The hands may touch at different heights. A visible gap is not required; stacking is prohibited.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-33",
+      "category": "Butterfly",
+      "text": "More than one arm pull under water following the start ☐ or ____________ m turn ☐",
+      "codes": [
+        "8.6"
+      ],
+      "relatedCodes": [],
+      "note": "One underwater pull must bring the swimmer to the surface and the head must break the surface by 15m. Submersion during the turn and the final reach after the head passes 5m remain exceptions.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-34",
+      "category": "Butterfly",
+      "text": "Head did not break the surface of the water at or before the 15m mark following the start ☐ or ____________ m turn ☐",
+      "codes": [
+        "8.6"
+      ],
+      "relatedCodes": [],
+      "note": "One underwater pull must bring the swimmer to the surface and the head must break the surface by 15m. Submersion during the turn and the final reach after the head passes 5m remain exceptions.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-35",
+      "category": "Butterfly",
+      "text": "Completely submerged during stroke except within 5m whilst reaching for the finish",
+      "codes": [
+        "8.6"
+      ],
+      "relatedCodes": [],
+      "note": "One underwater pull must bring the swimmer to the surface and the head must break the surface by 15m. Submersion during the turn and the final reach after the head passes 5m remain exceptions.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-36",
+      "category": "Medley",
+      "text": "Backstroke, breaststroke or butterfly swum in the freestyle section",
+      "codes": [
+        "5.1"
+      ],
+      "relatedCodes": [],
+      "note": "This restriction applies to the freestyle section of a medley; an ordinary freestyle event allows any style.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-37",
+      "category": "Medley",
+      "text": "Incorrect stroke order in individual medley ☐ / medley relay ☐",
+      "codes": [
+        "9.1",
+        "9.2"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-38",
+      "category": "Medley",
+      "text": "In the freestyle section, did not return to the breast before any kick or stroke",
+      "codes": [
+        "9.3"
+      ],
+      "relatedCodes": [],
+      "note": "During medley freestyle, rotate past vertical towards the breast before any kick or arm stroke after a turn.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-39",
+      "category": "Medley",
+      "text": "Finish of section not in accordance with rule of the stroke concerned (check box as applicable below) • Butterfly ☐ / Backstroke ☐ / Breaststroke ☐/ Freestyle ☐",
+      "codes": [
+        "9.4"
+      ],
+      "relatedCodes": [
+        "8.5",
+        "6.5",
+        "7.7",
+        "5.2"
+      ],
+      "note": "Check the finish requirement of the outgoing stroke, including a backstroke finish on the back before changing to breaststroke.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-40",
+      "category": "The Race",
+      "text": "Did not complete the whole distance",
+      "codes": [
+        "10.2.1"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-41",
+      "category": "The Race",
+      "text": "Did not remain in the same lane in which they started",
+      "codes": [
+        "10.2.2"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-42",
+      "category": "The Race",
+      "text": "When turning did not make contact with the end of the pool",
+      "codes": [
+        "10.2.3"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-43",
+      "category": "The Race",
+      "text": "Took a stride or step from the bottom of the pool",
+      "codes": [
+        "10.2.3"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-44",
+      "category": "The Race",
+      "text": "Stood on the bottom of the pool (except in freestyle)",
+      "codes": [
+        "10.2.4"
+      ],
+      "relatedCodes": [],
+      "note": "Standing is permitted in freestyle, including the freestyle section of medley. Walking or striding from the bottom is not.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-45",
+      "category": "The Race",
+      "text": "Pulled on the lane rope",
+      "codes": [
+        "10.2.5"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-46",
+      "category": "The Race",
+      "text": "Obstructing another swimmer",
+      "codes": [
+        "10.2.6"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-47",
+      "category": "The Race",
+      "text": "Entered the water during a race not entered in",
+      "codes": [
+        "10.2.7"
+      ],
+      "relatedCodes": [
+        "10.3"
+      ],
+      "note": "This applies until all swimmers finish. Under 10.3, entering a race you are not in leads to disqualification from your next scheduled race at that competition.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-48",
+      "category": "The Race",
+      "text": "Device or plan used for pace-making",
+      "codes": [
+        "10.2.9"
+      ],
+      "relatedCodes": [],
+      "note": "",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-49",
+      "category": "The Race",
+      "text": "Relay team did not swim in the order listed",
+      "codes": [
+        "10.4.2"
+      ],
+      "relatedCodes": [],
+      "note": "The team must swim in the declared order, as well as submit that order before the deadline. Late substitutions have separate conditions in 10.4.2.1.",
+      "audit": "clarified"
+    },
+    {
+      "id": "dq-50",
+      "category": "The Race",
+      "text": "Relay exchange did not commence from the starting platform",
+      "codes": [
+        "10.4.4"
+      ],
+      "relatedCodes": [],
+      "note": "This is the standard platform-takeover requirement. The app separately identifies the published Micro League North West water-start exception; this card does not settle its hand-release timing.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-51",
+      "category": "The Race",
+      "text": "Feet lost touch with the starting platform before the preceding team-mate touched the wall • Exchange No: ____________ • Time differential (if AOE available) ____________",
+      "codes": [
+        "10.4.5"
+      ],
+      "relatedCodes": [],
+      "note": "The outgoing swimmer may move before the touch but must retain foot contact with the platform until the incoming swimmer touches. The PDF also has exchange-number and timing-equipment fields.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-52",
+      "category": "The Race",
+      "text": "Relay team member re-entered the water before all teams finished the race",
+      "codes": [
+        "10.4.6"
+      ],
+      "relatedCodes": [],
+      "note": "The swimmer whose leg is next is allowed to enter for that swim. Other relay team members must stay out until all teams finish.",
+      "audit": "covered"
+    },
+    {
+      "id": "dq-53",
+      "category": "The Race",
+      "text": "Failed to leave the pool as soon as possible at the end of the race or section in a relay",
+      "codes": [
+        "10.4.7"
+      ],
+      "relatedCodes": [
+        "10.2.8"
+      ],
+      "note": "The card prints 10.4.7 beside wording covering the end of a race or relay leg. The individual-race exit rule is 10.2.8; 10.4.7 covers relays. Follow officials’ directions, including over-the-top starts, and do not obstruct anyone still racing.",
+      "audit": "cross-reference-note"
+    },
+    {
+      "id": "dq-54",
+      "category": "The Race",
+      "text": "Use of non-approved device, swimsuit, adhesive substance",
+      "codes": [
+        "14.2",
+        "14.3"
+      ],
+      "relatedCodes": [
+        "14.1",
+        "14.4"
+      ],
+      "note": "Read the card with 14.1 for swimwear and 14.3 for data-only devices. The later August commentary permits tape and nasal strips under 14.2; the app retains its English-applicability note.",
+      "audit": "later-guidance-note"
+    },
+    {
+      "id": "dq-55",
+      "category": "The Race",
+      "text": "Taping of more than two fingers ☐ / toes ☐",
+      "codes": [
+        "14.4"
+      ],
+      "relatedCodes": [],
+      "note": "The June card lists taping more than two fingers or toes. The later August commentary extends injury-protection taping to other body parts. Read both the baseline wording and the later guidance; this card alone does not resolve that application question.",
+      "audit": "later-guidance-note"
+    }
+  ]
+}
